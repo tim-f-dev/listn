@@ -14,9 +14,14 @@ let questions = 0; let samplePairs = 0;
 const manifest = readFileSync('src/audio/assets.ts', 'utf8');
 for (const level of levels) {
   assert.deepEqual(validateLevel(level), [], `Level ${level.id} invalid`);
+  if (level.id > 20) assert.ok(!level.intervals.includes(0), `Unison outside first pack: ${level.id}`);
   const seen = new Set<number>(); const history: number[] = [];
   for (let i = 0; i < 300; i++) {
     const q = createQuestion(level, history, rng);
+    if (level.id > 20) {
+      assert.notEqual(q.interval, 0, `Unison question in level ${level.id}`);
+      assert.ok(!q.choices.includes(0), `Unison answer in level ${level.id}`);
+    }
     assert.equal(q.choices.length, level.choices);
     assert.equal(new Set(q.choices).size, level.choices);
     assert.equal(q.choices.filter((n) => n === q.interval).length, 1);

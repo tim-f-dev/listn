@@ -93,7 +93,7 @@
   },
   "24": {
     "title": "Four familiar shapes",
-    "description": "Review unison, major third, fifth and octave with four clear piano choices."
+    "description": "Review major second, major third, fifth and octave with four clear piano choices."
   },
   "25": {
     "title": "High porcelain",
@@ -288,8 +288,8 @@
     "description": "An intentionally simple mixed-mode lesson follows the unfamiliar choir."
   },
   "73": {
-    "title": "All thirteen",
-    "description": "First complete simple-interval pool, anchored by a single familiar instrument."
+    "title": "All twelve",
+    "description": "First complete non-unison simple-interval pool, anchored by a single familiar instrument."
   },
   "74": {
     "title": "Muted brass twins",
@@ -317,7 +317,7 @@
   },
   "80": {
     "title": "Fourth mosaic",
-    "description": "Complete simple-interval coverage across keys, brass, strings and clarinet."
+    "description": "Complete non-unison simple-interval coverage across keys, brass, strings and clarinet."
   },
   "81": {
     "title": "A clear entrance",
@@ -329,11 +329,11 @@
   },
   "83": {
     "title": "Trumpet in motion",
-    "description": "A fast descending brass survey spans changing roots and seven possible distances."
+    "description": "A fast descending brass survey spans changing roots and six possible distances."
   },
   "84": {
     "title": "Guitar shelter",
-    "description": "Compare unison with a minor ninth on slow nylon guitar; just two clear choices."
+    "description": "Compare a perfect fifth with a minor ninth on slow nylon guitar; just two clear choices."
   },
   "85": {
     "title": "Black-key neighbors",
@@ -357,7 +357,7 @@
   },
   "90": {
     "title": "Across the keyboard",
-    "description": "The full interval pool spans three piano octaves at fast speed."
+    "description": "The non-unison simple-interval pool spans three piano octaves at fast speed."
   },
   "91": {
     "title": "Flute thirds revisit",
@@ -373,7 +373,7 @@
   },
   "94": {
     "title": "Beyond the octave",
-    "description": "Introduce the minor tenth against unison on slow piano, with only two choices."
+    "description": "Introduce the minor tenth against a perfect fifth on slow piano, with only two choices."
   },
   "95": {
     "title": "Low brass return",
@@ -385,7 +385,7 @@
   },
   "97": {
     "title": "Chamber crossroads",
-    "description": "Five familiar chamber colors cover every simple interval with changing modes."
+    "description": "Five familiar chamber colors cover every non-unison simple interval with changing modes."
   },
   "98": {
     "title": "The last quick pair",
@@ -393,10 +393,10 @@
   },
   "99": {
     "title": "One quiet breath",
-    "description": "Return to opening consonances for a calm, intentional penultimate level."
+    "description": "Return to familiar thirds, fifth and octave for a calm, intentional penultimate level."
   },
   "100": {
-    "title": "Intervalify finale",
-    "description": "Final synthesis: all simple intervals, five timbres, all modes and six choices; compounds remain a separate skill."
+    "title": "Listn finale",
+    "description": "Final synthesis: all non-unison simple intervals, five timbres, all modes and six choices; compounds remain a separate skill."
   }
 }

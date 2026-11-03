@@ -27,8 +27,8 @@ export default function LevelPacks() {
           return <Pressable key={pack.id} disabled={!pack.unlocked} accessibilityRole="button"
             accessibilityLabel={t('packs.label', { id: pack.id, status })} accessibilityState={{ disabled: !pack.unlocked }}
             onPress={() => router.push(`/packs/${pack.id}`)}
-            style={({ pressed }) => [{ width: side, height: side, padding: 12, gap: 6, borderRadius: 24, borderWidth: 2, borderColor: pack.unlocked ? colors.green : colors.border, backgroundColor: colors.paper, alignItems: 'center', justifyContent: 'center' }, pressed && { opacity: 0.7 }]}>
-            <Text accessible={false} style={{ color: pack.unlocked ? colors.green : colors.muted, fontSize: Math.min(68, side * 0.22), fontWeight: '800' }}>{pack.id}</Text>
+            style={({ pressed }) => [{ width: side, height: side, padding: 12, gap: 6, borderRadius: 24, borderWidth: 2, borderColor: pack.unlocked ? colors.primary : colors.border, backgroundColor: colors.paper, alignItems: 'center', justifyContent: 'center' }, pressed && { opacity: 0.7 }]}>
+            <Text accessible={false} style={{ color: pack.unlocked ? colors.primary : colors.muted, fontSize: Math.min(68, side * 0.22), fontWeight: '800' }}>{pack.id}</Text>
             <Text style={{ color: colors.ink, fontSize: Math.min(24, Math.max(14, side * 0.075)), fontWeight: '700', textAlign: 'center' }}>{t('packs.pack', { id: pack.id })}</Text>
             {side >= 180 && <Text style={ui.small}>{t('packs.range', { first: index * 20 + 1, last: index * 20 + 20 })}</Text>}
             <Text style={{ color: pack.unlocked ? colors.gold : colors.muted, fontSize: Math.min(25, Math.max(15, side * 0.085)), fontWeight: '700' }}>{t('packs.counter', { earned: pack.unlocked ? pack.stars : total, required: pack.unlocked ? 60 : required })}</Text>

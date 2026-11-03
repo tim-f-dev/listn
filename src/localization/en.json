@@ -39,7 +39,7 @@
   },
   "common": {
     "loading": "Loading…",
-    "opening": "Opening Intervalify…",
+    "opening": "Opening Listn…",
     "locked": "Locked",
     "levelTitle": "Level {{id}} · {{title}}",
     "starCount_one": "{{count}} star",
@@ -78,10 +78,12 @@
     "5": "Full spectrum"
   },
   "exercise": {
+    "levelLabel": "Level {{level}}",
+    "listenAgain": "Listen again",
     "unavailable": "This level is not available yet.",
     "question": "Level {{level}} · Question {{question}} / {{total}}",
     "prompt": "What interval do you hear?",
-    "choose": "Choose an answer whenever you’re ready.",
+    "choose": "Listen again or choose an interval.",
     "correct": "Correct! {{interval}}.",
     "incorrect": "Not quite. {{interval}}.",
     "next": "Next question →",
@@ -170,26 +172,26 @@
     "title": "Legal notice",
     "operator": {
       "title": "Service provider",
-      "body": "Intervalify is operated by Tim Fischer at the address shown above."
+      "body": "Listn is operated by Tim Fischer at the address shown above."
     },
     "contact": {
       "title": "Contact",
-      "body": "For questions about Intervalify or its content, please use the email address above."
+      "body": "For questions about Listn or its content, please use the email address above."
     },
     "content": {
       "title": "About this service",
-      "body": "Intervalify is an interval ear-training application. Information about the bundled sounds and their licenses is available on the Sounds & credits page."
+      "body": "Listn is an interval ear-training application. Information about the bundled sounds and their licenses is available on the Sounds & credits page."
     }
   },
   "privacy": {
     "title": "Privacy",
     "overview": {
       "title": "Overview",
-      "body": "Intervalify works without an account. The application does not include advertising, analytics, tracking pixels or a cloud database. Your answers are processed on your device. Scores and language preferences are not sent to the operator by the application. Visiting the hosted website still involves technical data processing by the hosting provider, as described below."
+      "body": "Listn works without an account. The application does not include advertising, analytics, tracking pixels or a cloud database. Your answers are processed on your device. Scores and language preferences are not sent to the operator by the application. Visiting the hosted website still involves technical data processing by the hosting provider, as described below."
     },
     "storage": {
       "title": "Progress, language and offline storage",
-      "body": "Intervalify stores your best scores, stars and unlocked levels locally under intervalify.progress.v1. Your language preference is stored separately under intervalify.language.v1. Your tutorial preference is stored under intervalify.tutorial.hidden.v1. The device or browser language is read to select the initial interface language. On the web, a service worker also caches application files and audio for offline use. These functions provide the game, remember your settings and enable offline playback; their legal basis is Article 6(1)(b) GDPR. Access to device storage for these requested functions is based on Section 25(2)(2) TDDDG. No advertising or analytics cookies are set by the application. Local records remain until you clear the app or website data, uninstall the app, or the browser removes them. Clearing this data also deletes your saved progress. There is no cloud backup."
+      "body": "Listn stores your best scores, stars and unlocked levels locally under listn.progress.v1. Your language preference is stored separately under listn.language.v1. Your tutorial preference is stored under listn.tutorial.hidden.v1. The device or browser language is read to select the initial interface language. On the web, a service worker also caches application files and audio for offline use. These functions provide the game, remember your settings and enable offline playback; their legal basis is Article 6(1)(b) GDPR. Access to device storage for these requested functions is based on Section 25(2)(2) TDDDG. No advertising or analytics cookies are set by the application. Local records remain until you clear the app or website data, uninstall the app, or the browser removes them. Clearing this data also deletes your saved progress. There is no cloud backup."
     },
     "hosting": {
       "title": "Website hosting with Cloudflare",

@@ -2,7 +2,7 @@
 
 English and German are bundled with the application, including offline builds. i18next/react-i18next render translations immediately; expo-localization supplies the initial device/browser locale. German locales use German, all other locales default to English. The Options submenu shows English/Deutsch buttons and the current selection.
 
-`src/localization/core.ts` owns resources and the language controller. The manual preference uses AsyncStorage key `intervalify.language.v1`, independently of `intervalify.progress.v1`. Initialization waits for preference hydration; later changes do not remount screens, regenerate questions or restart playback. Storage errors offer a translated Retry action.
+`src/localization/core.ts` owns resources and the language controller. The manual preference uses AsyncStorage key `listn.language.v1`, independently of `listn.progress.v1`. Initialization waits for preference hydration; later changes do not remount screens, regenerate questions or restart playback. Storage errors offer a translated Retry action.
 
 Translation namespaces:
 

@@ -23,4 +23,4 @@ createServer((request, response) => {
     response.writeHead(206, { ...headers, 'Content-Range': `bytes ${start}-${end}/${size}`, 'Content-Length': end - start + 1 });
     createReadStream(file, { start, end }).pipe(response);
   } else { response.writeHead(200, { ...headers, 'Content-Length': size }); createReadStream(file).pipe(response); }
-}).listen(port, '127.0.0.1', () => console.log(`Intervalify production preview: http://127.0.0.1:${port} (${root})`));
+}).listen(port, '127.0.0.1', () => console.log(`Listn production preview: http://127.0.0.1:${port} (${root})`));

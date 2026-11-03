@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Intervalify",
-    "slug": "intervalify",
+    "name": "Listn",
+    "slug": "listn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -33,7 +33,7 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "scheme": "intervalify",
+    "scheme": "listn",
     "plugins": [
       "expo-router",
       [

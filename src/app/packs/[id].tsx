@@ -56,9 +56,9 @@ export default function Pack() {
 const styles = StyleSheet.create({
   row: { flexDirection: 'row', gap: 8 },
   tile: { borderRadius: 12, borderWidth: 2, borderColor: colors.border, backgroundColor: colors.paper, alignItems: 'center', justifyContent: 'center' },
-  number: { color: colors.green, fontSize: 26, fontWeight: '800' },
+  number: { color: colors.primary, fontSize: 26, fontWeight: '800' },
   stars: { color: colors.gold, fontSize: 17, fontWeight: '700', letterSpacing: 0 },
-  completed: { borderColor: colors.green, backgroundColor: colors.pale },
-  locked: { backgroundColor: '#ECEFE7' },
+  completed: { borderColor: colors.primary, backgroundColor: colors.pale },
+  locked: { backgroundColor: colors.locked },
   lock: { position: 'absolute', top: 4, right: 3, fontSize: 11 },
 });

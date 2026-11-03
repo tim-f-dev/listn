@@ -1,6 +1,6 @@
 import type { Storage } from '../game/progress';
 
-export const TUTORIAL_KEY = 'intervalify.tutorial.hidden.v1';
+export const TUTORIAL_KEY = 'listn.tutorial.hidden.v1';
 type State = Readonly<{ ready: boolean; seen: boolean; hidden: boolean; saving: boolean; saveError: boolean }>;
 export function tutorialStage(state: State) {
   return !state.ready ? 'loading' : state.seen || state.hidden ? 'play' : 'tutorial';

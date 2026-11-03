@@ -39,7 +39,7 @@
   },
   "common": {
     "loading": "Wird geladen…",
-    "opening": "Intervalify wird geöffnet…",
+    "opening": "Listn wird geöffnet…",
     "locked": "Gesperrt",
     "levelTitle": "Level {{id}} · {{title}}",
     "starCount_one": "{{count}} Stern",
@@ -78,10 +78,12 @@
     "5": "Die ganze Klangvielfalt"
   },
   "exercise": {
+    "levelLabel": "Level {{level}}",
+    "listenAgain": "Noch einmal hören",
     "unavailable": "Dieses Level ist noch nicht freigeschaltet.",
     "question": "Level {{level}} · Frage {{question}} / {{total}}",
     "prompt": "Welches Intervall hörst du?",
-    "choose": "Wähle eine Antwort, sobald du bereit bist.",
+    "choose": "Höre noch einmal oder wähle ein Intervall.",
     "correct": "Richtig! {{interval}}.",
     "incorrect": "Nicht ganz. {{interval}}.",
     "next": "Nächste Frage →",
@@ -170,26 +172,26 @@
     "title": "Impressum",
     "operator": {
       "title": "Diensteanbieter",
-      "body": "Intervalify wird von Tim Fischer unter der oben angegebenen Anschrift betrieben."
+      "body": "Listn wird von Tim Fischer unter der oben angegebenen Anschrift betrieben."
     },
     "contact": {
       "title": "Kontakt",
-      "body": "Bei Fragen zu Intervalify oder zu den Inhalten erreichen Sie den Anbieter unter der oben angegebenen E-Mail-Adresse."
+      "body": "Bei Fragen zu Listn oder zu den Inhalten erreichen Sie den Anbieter unter der oben angegebenen E-Mail-Adresse."
     },
     "content": {
       "title": "Über dieses Angebot",
-      "body": "Intervalify ist eine Anwendung zum Trainieren des musikalischen Intervallgehörs. Angaben zu den enthaltenen Klängen und deren Lizenzen finden Sie auf der Seite „Klänge & Mitwirkende“."
+      "body": "Listn ist eine Anwendung zum Trainieren des musikalischen Intervallgehörs. Angaben zu den enthaltenen Klängen und deren Lizenzen finden Sie auf der Seite „Klänge & Mitwirkende“."
     }
   },
   "privacy": {
     "title": "Datenschutz",
     "overview": {
       "title": "Überblick",
-      "body": "Intervalify funktioniert ohne Benutzerkonto. Die Anwendung enthält keine Werbung, Analysewerkzeuge, Tracking-Pixel oder Cloud-Datenbank. Ihre Antworten werden auf Ihrem Gerät verarbeitet. Die Anwendung übermittelt Spielstände und Spracheinstellungen nicht an den Anbieter. Beim Aufruf der gehosteten Website verarbeitet der Hostinganbieter dennoch technische Daten, wie nachfolgend beschrieben."
+      "body": "Listn funktioniert ohne Benutzerkonto. Die Anwendung enthält keine Werbung, Analysewerkzeuge, Tracking-Pixel oder Cloud-Datenbank. Ihre Antworten werden auf Ihrem Gerät verarbeitet. Die Anwendung übermittelt Spielstände und Spracheinstellungen nicht an den Anbieter. Beim Aufruf der gehosteten Website verarbeitet der Hostinganbieter dennoch technische Daten, wie nachfolgend beschrieben."
     },
     "storage": {
       "title": "Spielstand, Sprache und Offline-Speicher",
-      "body": "Intervalify speichert Bestleistungen, Sterne und freigeschaltete Level lokal unter intervalify.progress.v1. Die Spracheinstellung wird getrennt unter intervalify.language.v1 gespeichert. Ihre Tutorial-Einstellung wird unter intervalify.tutorial.hidden.v1 gespeichert. Die Geräte- oder Browsersprache wird ausgelesen, um die anfängliche Sprache der Oberfläche festzulegen. Im Web speichert ein Service Worker außerdem Anwendungsdateien und Klänge für die Offline-Nutzung zwischen. Diese Funktionen stellen das Spiel bereit, merken sich Ihre Einstellungen und ermöglichen die Offline-Wiedergabe; Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO. Der Zugriff auf den Gerätespeicher für diese gewünschten Funktionen erfolgt auf Grundlage von § 25 Abs. 2 Nr. 2 TDDDG. Die Anwendung setzt keine Werbe- oder Analyse-Cookies. Lokale Daten bleiben gespeichert, bis Sie die App- oder Websitedaten löschen, die App deinstallieren oder der Browser die Daten entfernt. Beim Löschen geht auch Ihr Spielstand verloren. Eine Sicherung in der Cloud findet nicht statt."
+      "body": "Listn speichert Bestleistungen, Sterne und freigeschaltete Level lokal unter listn.progress.v1. Die Spracheinstellung wird getrennt unter listn.language.v1 gespeichert. Ihre Tutorial-Einstellung wird unter listn.tutorial.hidden.v1 gespeichert. Die Geräte- oder Browsersprache wird ausgelesen, um die anfängliche Sprache der Oberfläche festzulegen. Im Web speichert ein Service Worker außerdem Anwendungsdateien und Klänge für die Offline-Nutzung zwischen. Diese Funktionen stellen das Spiel bereit, merken sich Ihre Einstellungen und ermöglichen die Offline-Wiedergabe; Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO. Der Zugriff auf den Gerätespeicher für diese gewünschten Funktionen erfolgt auf Grundlage von § 25 Abs. 2 Nr. 2 TDDDG. Die Anwendung setzt keine Werbe- oder Analyse-Cookies. Lokale Daten bleiben gespeichert, bis Sie die App- oder Websitedaten löschen, die App deinstallieren oder der Browser die Daten entfernt. Beim Löschen geht auch Ihr Spielstand verloren. Eine Sicherung in der Cloud findet nicht statt."
     },
     "hosting": {
       "title": "Website-Hosting durch Cloudflare",

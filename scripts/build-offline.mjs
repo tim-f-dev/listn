@@ -16,7 +16,7 @@ urls.push('/offline-register.js');
 const version = createHash('sha256');
 version.update(await readFile(import.meta.filename));
 for (const file of files.sort()) version.update(await readFile(file));
-const cacheName = `intervalify-${version.digest('hex').slice(0, 16)}`;
+const cacheName = `listn-${version.digest('hex').slice(0, 16)}`;
 const worker = `// Generated offline cache: all app code and bundled instrument samples.
 const CACHE = ${JSON.stringify(cacheName)};
 const URLS = ${JSON.stringify(urls)};
@@ -26,7 +26,7 @@ self.addEventListener('install', event => event.waitUntil((async () => {
   // A replacement waits for old tabs to close, so lazy chunks stay version-consistent.
 })()));
 self.addEventListener('activate', event => event.waitUntil((async () => {
-  for (const name of await caches.keys()) if (name.startsWith('intervalify-') && name !== CACHE) await caches.delete(name);
+  for (const name of await caches.keys()) if (name.startsWith('listn-') && name !== CACHE) await caches.delete(name);
   await self.clients.claim();
 })()));
 self.addEventListener('fetch', event => {
@@ -60,7 +60,7 @@ self.addEventListener('fetch', event => {
 await writeFile(path.join(directory, 'sw.js'), worker);
 await writeFile(path.join(directory, 'offline-register.js'), `
 if ('serviceWorker' in navigator) {
-  const announce = (state) => { window.__intervalifyOffline = state; window.dispatchEvent(new Event('intervalify-offline')); };
+  const announce = (state) => { window.__listnOffline = state; window.dispatchEvent(new Event('listn-offline')); };
   announce('preparing');
   navigator.serviceWorker.register('/sw.js').then(registration => {
     if (registration.active) announce('ready');
@@ -76,6 +76,6 @@ if ('serviceWorker' in navigator) {
 const htmlPath = path.join(directory, 'index.html');
 let html = await readFile(htmlPath, 'utf8');
 if (!html.includes('offline-register.js')) html = html.replace('</body>', '<script src="/offline-register.js"></script></body>');
-html = html.replace(/<title>.*?<\/title>/, '<title>Intervalify</title>');
+html = html.replace(/<title>.*?<\/title>/, '<title>Listn</title>');
 await writeFile(htmlPath, html);
 console.log(`Offline web cache prepared: ${urls.length} files, ${cacheName}. Serve at the domain root over HTTPS or localhost.`);

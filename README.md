@@ -19,7 +19,7 @@ The shared codebase supports web, Android and iOS. You can play in your browser 
 
 ## About the project
 
-Created by **Tim Fischer**, Intervalify is built around a simple practice loop: listen, make a choice, learn from the answer, and try again.
+Created by **Tim Fischer**, Listn is built around a simple practice loop: listen, make a choice, learn from the answer, and try again.
 
 The application uses TypeScript, React Native and Expo. Setup, development commands and deployment instructions live in the [developer guide](DEVELOPMENT.md). More detailed notes cover [level design](LEVEL_DESIGN.md) and [language support](LOCALIZATION.md).
 
@@ -27,4 +27,4 @@ The application uses TypeScript, React Native and Expo. Setup, development comma
 
 Instrument sounds are rendered from the MuseScore-distributed MS Basic SoundFont. Full attribution is available in the app's **Sounds & credits** page and in [third-party notices](THIRD_PARTY_LICENSES.md).
 
-Copyright (c) 2026 Tim Fischer. All rights reserved for original Intervalify material owned by Tim Fischer; see [LICENSE](LICENSE). Third-party code and assets retain their respective licenses, including [Expo's MIT notice](licenses/Expo.txt).
+Copyright (c) 2026 Tim Fischer. All rights reserved for original Listn material owned by Tim Fischer; see [LICENSE](LICENSE). Third-party code and assets retain their respective licenses, including [Expo's MIT notice](licenses/Expo.txt).

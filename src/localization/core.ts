@@ -11,7 +11,7 @@ export const resources = {
   de: { translation: de, levels: deLevels, instruments: deInstruments },
 };
 export type Language = keyof typeof resources;
-export const LANGUAGE_KEY = 'intervalify.language.v1';
+export const LANGUAGE_KEY = 'listn.language.v1';
 export function detectLanguage(locale?: string | null): Language {
   return locale?.toLowerCase().split(/[-_]/)[0] === 'de' ? 'de' : 'en';
 }

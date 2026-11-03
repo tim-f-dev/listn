@@ -2,7 +2,7 @@
 
 Existing names and instruments are retained. IDs remain positions 1–100; existing saved scores and stars stay attached to their numbered slots. No save keys or star gates change.
 
-First 50: no fast playback and at most four choices. Pack 1 uses gaps of at least two semitones. Pack 2 introduces fine comparisons only within 0–5, with spaced wide reviews. Pack 3 starts larger neighboring contrasts in slow two-choice lessons. Pack 5 includes gentle minor/major ninth and tenth lessons.
+First 50: no fast playback and at most four choices. Pack 1 uses gaps of at least two semitones. Pack 2 introduces fine comparisons only within 1–5, with spaced wide reviews. Pack 3 starts larger neighboring contrasts in slow two-choice lessons. Pack 5 includes gentle minor/major ninth and tenth lessons.
 
 | New level | Previous level | Title |
 |---|---|---|
@@ -78,7 +78,7 @@ First 50: no fast playback and at most four choices. Pack 1 uses gaps of at leas
 | 70 | 68 | Two bass colors |
 | 71 | 69 | Choir intervals |
 | 72 | 70 | Nylon reset |
-| 73 | 71 | All thirteen |
+| 73 | 71 | All twelve |
 | 74 | 72 | Muted brass twins |
 | 75 | 73 | Celesta zigzag |
 | 76 | 75 | Saxophone neighbors |
@@ -105,4 +105,4 @@ First 50: no fast playback and at most four choices. Pack 1 uses gaps of at leas
 | 97 | 97 | Chamber crossroads |
 | 98 | 98 | The last quick pair |
 | 99 | 99 | One quiet breath |
-| 100 | 100 | Intervalify finale |
+| 100 | 100 | Listn finale |

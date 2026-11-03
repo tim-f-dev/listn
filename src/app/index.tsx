@@ -19,9 +19,9 @@ export default function HomeScreen() {
     <View style={{ flex: 1, minHeight: 0, flexDirection: landscape ? 'row' : 'column', alignItems: 'center', justifyContent: 'center', gap: dense ? 12 : 24 }}>
       <View style={{ flex: 1, minHeight: 0, width: '100%', alignItems: 'center', justifyContent: 'center', gap: dense ? 8 : 16 }}>
         <View accessibilityElementsHidden importantForAccessibility="no-hide-descendants" style={{ width: dense ? 120 : 180, height: dense ? 56 : 90, borderRadius: 24, backgroundColor: colors.pale, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 12 }}>
-          <Text style={{ fontSize: dense ? 38 : 52, color: colors.green }}>♪</Text><Text style={{ fontSize: dense ? 38 : 52, color: colors.green }}>♫</Text>
+          <Text style={{ fontSize: dense ? 38 : 52, color: colors.primary }}>♪</Text><Text style={{ fontSize: dense ? 38 : 52, color: colors.primary }}>♫</Text>
         </View>
-        <Text role="heading" style={[ui.title, { fontSize: dense ? 38 : 52, textAlign: 'center' }]}>Intervalify</Text>
+        <Text role="heading" style={[ui.title, { fontSize: dense ? 38 : 52, textAlign: 'center' }]}>Listn</Text>
         <Text style={[ui.body, { maxWidth: 430, textAlign: 'center', fontSize: dense ? 14 : 18, lineHeight: dense ? 20 : 26 }]}>{t('home.tagline')}</Text>
       </View>
       <View style={{ flex: landscape ? 1 : undefined, width: landscape ? undefined : '100%', maxWidth: 480, gap: dense ? 8 : 16 }}>

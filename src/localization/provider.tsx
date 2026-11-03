@@ -1,3 +1,4 @@
+import { colors } from '../components/theme';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
 import { useEffect, useSyncExternalStore, type ReactNode } from 'react';
@@ -16,5 +17,5 @@ export function useLanguage() {
 export function LocalizationProvider({ children }: { children: ReactNode }) {
   const { ready } = useLanguage();
   useEffect(() => { void languageController.initialize(); }, []);
-  return <I18nextProvider i18n={localization}><DocumentLanguage />{ready ? children : <View style={{ flex: 1, justifyContent: 'center' }}><ActivityIndicator /></View>}</I18nextProvider>;
+  return <I18nextProvider i18n={localization}><DocumentLanguage />{ready ? children : <View style={{ flex: 1, justifyContent: 'center', backgroundColor: colors.canvas }}><ActivityIndicator color={colors.primary} /></View>}</I18nextProvider>;
 }

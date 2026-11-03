@@ -23,7 +23,7 @@ test('larger neighboring intervals wait until pack three; first fifty avoid spee
     assert.ok(level.choices <= 4, `Level ${level.id}`);
   }
   const small = new Set(levels.slice(20, 40).flatMap((level) => [...level.intervals]));
-  for (let n = 0; n <= 5; n++) assert.ok(small.has(n));
+  for (let n = 1; n <= 5; n++) assert.ok(small.has(n));
   for (const pair of [[6, 7], [8, 9], [10, 11]]) assert.ok(levels.slice(40, 50).some((level) => level.choices === 2 && pair.every((n) => level.intervals.includes(n)) && level.speed === 'slow'));
 });
 

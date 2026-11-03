@@ -22,7 +22,7 @@ for (const language of ['en', 'de'] as const) {
 
 const flattened = Object.fromEntries(namespaces.map((ns) => [ns, flattenTranslations(resources.en[ns])]));
 const errors: string[] = [];
-const words = (value: string) => /\p{L}/u.test(value) && !['Intervalify', 'English', 'Deutsch'].includes(value.trim());
+const words = (value: string) => /\p{L}/u.test(value) && !['Listn', 'LISTN', 'English', 'Deutsch'].includes(value.trim());
 function literalBranches(node: ts.Node): string[] {
   if (ts.isStringLiteralLike(node)) return [node.text];
   if (ts.isConditionalExpression(node)) return [...literalBranches(node.whenTrue), ...literalBranches(node.whenFalse)];

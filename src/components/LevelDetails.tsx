@@ -32,17 +32,17 @@ export default function LevelDetails({ levelId, packLevels, onSelect, onClose }:
   const visibleFacts = compact ? [facts[Math.min(page, facts.length - 1)]] : facts;
   function select(offset: number) { setPage(0); onSelect(packLevels[index + offset].id); }
   return <Modal visible transparent animationType="fade" onRequestClose={onClose} supportedOrientations={['portrait', 'landscape']}>
-    <View style={{ flex: 1, backgroundColor: 'rgba(0,0,0,0.45)', alignItems: 'center', justifyContent: 'center', padding: 12 }}>
+    <View style={{ flex: 1, backgroundColor: colors.overlay, alignItems: 'center', justifyContent: 'center', padding: 12 }}>
       <View accessibilityViewIsModal style={[ui.card, { width: '100%', maxWidth: 760, maxHeight: '100%', padding: compact ? 12 : 24, gap: compact ? 8 : 16 }]}>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
           <Text role="heading" style={[ui.heading, { flex: 1, fontSize: compact ? 20 : 28 }]}>{t('common.levelTitle', { id: level.id, title: t(`${level.id}.title`, { ns: 'levels' }) })}</Text>
-          <Pressable accessibilityRole="button" accessibilityLabel={t('levelDetails.close')} onPress={onClose} style={{ width: 44, height: 44, borderRadius: 12, backgroundColor: colors.red, alignItems: 'center', justifyContent: 'center' }}><Text accessible={false} style={{ color: '#FFFFFF', fontSize: 24 }}>×</Text></Pressable>
+          <Pressable accessibilityRole="button" accessibilityLabel={t('levelDetails.close')} onPress={onClose} style={{ width: 44, height: 44, borderRadius: 12, backgroundColor: colors.red, alignItems: 'center', justifyContent: 'center' }}><Text accessible={false} style={{ color: colors.onPrimary, fontSize: 24 }}>×</Text></Pressable>
         </View>
         <View style={{ flexDirection: height < 500 ? 'row' : 'column', gap: compact ? 8 : 16 }}>
         <View style={{ flex: height < 500 ? 1 : undefined, gap: 8 }}>
         <View accessibilityLiveRegion="polite" style={{ gap: compact ? 6 : 12 }}>
           {visibleFacts.map((fact) => <View key={fact.title + fact.text} style={{ padding: compact ? 10 : 14, borderRadius: 16, backgroundColor: colors.pale, gap: 4 }}>
-            <Text style={{ color: colors.green, fontSize: 14, fontWeight: '700' }}>{fact.title}</Text>
+            <Text style={{ color: colors.primary, fontSize: 14, fontWeight: '700' }}>{fact.title}</Text>
             <Text style={[ui.body, compact && { fontSize: 14, lineHeight: 20 }]}>{fact.text}</Text>
           </View>)}
         </View>

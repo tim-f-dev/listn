@@ -5,25 +5,24 @@ import { useGame } from '../game/context';
 import { useTranslation } from 'react-i18next';
 import { useScreenLayout } from './useLayout';
 
-export const colors = { ink: '#173E39', muted: '#526D67', canvas: '#F6F8F2', paper: '#FFFFFF',
-  green: '#216451', pale: '#E5EEE3', border: '#D5DFD4', gold: '#B87915', amber: '#FFF0CB',
-  red: '#A33336', pink: '#FBE8E5' };
+import { colors, fonts } from './theme';
+export { colors, fonts } from './theme';
 export const ui = StyleSheet.create({
   page: { flex: 1, minHeight: 0, overflow: 'hidden', backgroundColor: colors.canvas },
   content: { width: '100%', maxWidth: 820, alignSelf: 'center', padding: 24, paddingBottom: 48, gap: 20 },
-  eyebrow: { color: colors.green, fontSize: 12, fontWeight: '700', letterSpacing: 2, textTransform: 'uppercase' },
-  title: { color: colors.ink, fontSize: 36, fontWeight: '800', letterSpacing: -1 },
-  heading: { color: colors.ink, fontSize: 24, fontWeight: '700' },
+  eyebrow: { color: colors.primary, fontSize: 12, fontWeight: '700', letterSpacing: 2, textTransform: 'uppercase' },
+  title: { color: colors.ink, fontSize: 36, fontFamily: fonts.editorial, fontWeight: '400', letterSpacing: -0.5 },
+  heading: { color: colors.ink, fontSize: 24, fontFamily: fonts.editorial, fontWeight: '400' },
   body: { color: colors.muted, fontSize: 16, lineHeight: 25 },
   small: { color: colors.muted, fontSize: 13, lineHeight: 20 },
   card: { borderRadius: 24, padding: 24, backgroundColor: colors.paper, borderWidth: 1, borderColor: colors.border, gap: 16 },
   row: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 12 },
-  button: { minHeight: 44, borderRadius: 16, paddingVertical: 10, paddingHorizontal: 16, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.green },
-  buttonText: { color: '#FFFFFF', fontWeight: '700', fontSize: 16, textAlign: 'center' },
+  button: { minHeight: 44, borderRadius: 16, paddingVertical: 10, paddingHorizontal: 16, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.primary },
+  buttonText: { color: colors.onPrimary, fontWeight: '700', fontSize: 16, textAlign: 'center' },
   secondary: { backgroundColor: colors.pale },
   disabled: { opacity: 0.45 },
   track: { height: 8, borderRadius: 5, backgroundColor: colors.pale, overflow: 'hidden' },
-  fill: { height: '100%', backgroundColor: colors.green, borderRadius: 5 },
+  fill: { height: '100%', backgroundColor: colors.primary, borderRadius: 5 },
   warning: { padding: 16, backgroundColor: colors.amber, borderRadius: 16, gap: 12 },
 });
 export function Button({ children, onPress, disabled, secondary, label, large }: {
@@ -51,7 +50,7 @@ export function Page({ children, header, footer, compact = false }: {
     <View style={[ui.content, { flex: 1, minHeight: 0, maxWidth: 1200, padding: dense || compact ? 12 : 24, paddingBottom: dense || compact ? 12 : 24, gap: dense || compact ? 8 : 16 }]}>
     {!ready ? <View style={ui.card}>
       <Text style={ui.heading}>{t(loadError ? 'errors.progressTitle' : 'common.opening')}</Text>
-      {loadError ? <><Text style={ui.body}>{t(loadError)}</Text><Button onPress={reload}>{t('errors.retryLoad')}</Button></> : <ActivityIndicator color={colors.green} />}
+      {loadError ? <><Text style={ui.body}>{t(loadError)}</Text><Button onPress={reload}>{t('errors.retryLoad')}</Button></> : <ActivityIndicator color={colors.primary} />}
     </View> : <>
       {saveError && <View style={ui.warning}><Text accessibilityLiveRegion="polite" style={ui.body}>{t(saveError)}</Text>
         <Button onPress={retrySave} disabled={saving}>{t('errors.retrySave')}</Button></View>}

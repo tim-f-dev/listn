@@ -6,8 +6,8 @@ export default function TutorialCheckbox({ checked, disabled, label, onChange }:
   return <Pressable accessibilityRole="checkbox" accessibilityLabel={label} aria-checked={checked} aria-disabled={disabled}
     accessibilityState={{ checked, disabled }} disabled={disabled} onPress={() => onChange(!checked)}
     style={{ minHeight: 44, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
-    <View style={{ width: 24, height: 24, borderWidth: 2, borderColor: colors.green, borderRadius: 5, backgroundColor: checked ? colors.green : colors.paper, alignItems: 'center', justifyContent: 'center' }}>
-      {checked && <Text accessible={false} style={{ color: '#FFFFFF', fontWeight: '800' }}>✓</Text>}
+    <View style={{ width: 24, height: 24, borderWidth: 2, borderColor: colors.primary, borderRadius: 5, backgroundColor: checked ? colors.primary : colors.paper, alignItems: 'center', justifyContent: 'center' }}>
+      {checked && <Text accessible={false} style={{ color: colors.onPrimary, fontWeight: '800' }}>✓</Text>}
     </View>
     <Text style={[ui.body, { flex: 1 }]}>{label}</Text>
   </Pressable>;

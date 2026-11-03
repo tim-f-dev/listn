@@ -1,4 +1,4 @@
-# Intervalify level design
+# Listn level design
 
 The permanent source is `src/game/levels.ts`: 100 individually authored configurations, not a procedural difficulty generator. This document is rendered from that authored list with `npm run docs:levels`.
 
@@ -192,7 +192,7 @@ Review all three playback modes with two familiar timbres.
 
 ## Chapter 2
 
-Review 21–40: introduce fine comparisons among unison, seconds, thirds and fourth (0–5 semitones). Larger intervals appear only in spaced reviews. Slow focused practice alternates with familiar wide contrasts.
+Review 21–40: introduce fine comparisons among seconds, thirds and fourth (1–5 semitones). Larger intervals appear only in spaced reviews. Slow focused practice alternates with familiar wide contrasts.
 
 ### 21. Half-step lanterns — steady
 
@@ -207,7 +207,7 @@ Introduce the minor second in a bright, uncluttered celesta register.
 
 Recognize familiar intervals at an unhurried pace, with no more than four answer choices.
 
-- Intervals: 0 (Perfect unison), 12 (Perfect octave).
+- Intervals: 7 (Perfect fifth), 12 (Perfect octave).
 - 2 choices; ascending; normal; 900 ms per note.
 - GM programs (zero-based): 12 Marimba.
 - Lower/root MIDI range: 60–72.
@@ -223,9 +223,9 @@ Introduce the minor third beside its neighboring major third.
 
 ### 24. Four familiar shapes — stretch
 
-Review unison, major third, fifth and octave with four clear piano choices.
+Review major second, major third, fifth and octave with four clear piano choices.
 
-- Intervals: 0 (Perfect unison), 4 (Major third), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 4 (Major third), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; ascending; normal; 900 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano.
 - Lower/root MIDI range: 60–67.
@@ -261,7 +261,7 @@ Compare small intervals carefully at a slow pace; replay the notes as often as y
 
 Violin, guitar and flute share a root band; infer the interval through changing envelopes.
 
-- Intervals: 0 (Perfect unison), 3 (Minor third), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 3 (Minor third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; descending; normal; 850 ms per note.
 - GM programs (zero-based): 40 Violin, 24 Nylon Guitar, 73 Flute.
 - Lower/root MIDI range: 60–67.
@@ -279,7 +279,7 @@ Compare small intervals carefully at a slow pace; replay the notes as often as y
 
 Recognize familiar intervals at an unhurried pace, with no more than four answer choices.
 
-- Intervals: 0 (Perfect unison), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; ascending; normal; 900 ms per note.
 - GM programs (zero-based): 9 Glockenspiel.
 - Lower/root MIDI range: 72–79.
@@ -306,7 +306,7 @@ Tuba moves familiar shapes into its natural low register.
 
 Compare small intervals carefully at a slow pace; replay the notes as often as you need.
 
-- Intervals: 0 (Perfect unison), 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth).
+- Intervals: 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth).
 - 4 choices; ascending; slow; 1100 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano.
 - Lower/root MIDI range: 60–65.
@@ -315,7 +315,7 @@ Compare small intervals carefully at a slow pace; replay the notes as often as y
 
 Introduce piccolo in its natural high range with familiar interval shapes.
 
-- Intervals: 0 (Perfect unison), 7 (Perfect fifth), 12 (Perfect octave), 4 (Major third).
+- Intervals: 2 (Major second), 4 (Major third), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; ascending; normal; 800 ms per note.
 - GM programs (zero-based): 72 Piccolo.
 - Lower/root MIDI range: 72–79.
@@ -324,7 +324,7 @@ Introduce piccolo in its natural high range with familiar interval shapes.
 
 Recognize familiar intervals at an unhurried pace, with no more than four answer choices.
 
-- Intervals: 0 (Perfect unison), 7 (Perfect fifth).
+- Intervals: 4 (Major third), 7 (Perfect fifth).
 - 2 choices; ascending; normal; 900 ms per note.
 - GM programs (zero-based): 56 Trumpet.
 - Lower/root MIDI range: 60–72.
@@ -333,7 +333,7 @@ Recognize familiar intervals at an unhurried pace, with no more than four answer
 
 Recognize familiar intervals at an unhurried pace, with no more than four answer choices.
 
-- Intervals: 0 (Perfect unison), 2 (Major second), 4 (Major third), 7 (Perfect fifth), 9 (Major sixth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 4 (Major third), 7 (Perfect fifth), 9 (Major sixth), 12 (Perfect octave).
 - 4 choices; ascending; normal; 900 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano.
 - Lower/root MIDI range: 48–55.
@@ -342,7 +342,7 @@ Recognize familiar intervals at an unhurried pace, with no more than four answer
 
 Recognize familiar intervals at an unhurried pace, with no more than four answer choices.
 
-- Intervals: 0 (Perfect unison), 3 (Minor third), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 3 (Minor third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; descending; normal; 900 ms per note.
 - GM programs (zero-based): 24 Nylon Guitar, 27 Clean Guitar.
 - Lower/root MIDI range: 55–67.
@@ -351,7 +351,7 @@ Recognize familiar intervals at an unhurried pace, with no more than four answer
 
 Recognize familiar intervals at an unhurried pace, with no more than four answer choices.
 
-- Intervals: 0 (Perfect unison), 2 (Major second), 3 (Minor third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 3 (Minor third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; descending; slow; 1100 ms per note.
 - GM programs (zero-based): 70 Bassoon.
 - Lower/root MIDI range: 43–55.
@@ -369,7 +369,7 @@ Recognize familiar intervals at an unhurried pace, with no more than four answer
 
 Recognize familiar intervals at an unhurried pace, with no more than four answer choices.
 
-- Intervals: 0 (Perfect unison), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; descending; normal; 900 ms per note.
 - GM programs (zero-based): 72 Piccolo, 73 Flute.
 - Lower/root MIDI range: 72–79.
@@ -472,7 +472,7 @@ Recognize familiar intervals at an unhurried pace, with no more than four answer
 
 Six answer choices now bring familiar small and wide intervals together on slow piano.
 
-- Intervals: 0 (Perfect unison), 2 (Major second), 3 (Minor third), 4 (Major third), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 6 choices; ascending; slow; 1100 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano.
 - Lower/root MIDI range: 60–65.
@@ -553,7 +553,7 @@ Every non-unison simple interval except octave can appear among six choices.
 
 Four core timbres revisit a broad interval pool with changing playback modes.
 
-- Intervals: 0 (Perfect unison), 1 (Minor second), 3 (Minor third), 4 (Major third), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 11 (Major seventh), 12 (Perfect octave).
+- Intervals: 1 (Minor second), 3 (Minor third), 4 (Major third), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 11 (Major seventh), 12 (Perfect octave).
 - 6 choices; mixed; normal; 850 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano, 24 Nylon Guitar, 40 Violin, 73 Flute.
 - Lower/root MIDI range: 60–72.
@@ -566,7 +566,7 @@ Review 61–80: combine the established interval vocabulary with timbre, directi
 
 Chapter review mixes timbres and modes but uses a mostly consonant pool.
 
-- Intervals: 0 (Perfect unison), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; mixed; normal; 850 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano, 40 Violin, 73 Flute.
 - Lower/root MIDI range: 60–67.
@@ -575,7 +575,7 @@ Chapter review mixes timbres and modes but uses a mostly consonant pool.
 
 Six familiar intervals return at a faster pace.
 
-- Intervals: 0 (Perfect unison), 2 (Major second), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 6 choices; ascending; fast; 450 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano.
 - Lower/root MIDI range: 60–67.
@@ -638,7 +638,7 @@ Oboe and English horn mix less familiar distances while allowing long listening.
 
 Short clavinet attacks offer a rhythmic challenge with mostly obvious shapes.
 
-- Intervals: 0 (Perfect unison), 2 (Major second), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 4 (Major third), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; ascending; fast; 350 ms per note.
 - GM programs (zero-based): 7 Clavinet.
 - Lower/root MIDI range: 60–72.
@@ -656,7 +656,7 @@ Compare neighboring thirds across acoustic and fretless bass without harmony.
 
 Slow choir attacks require sustained attention to simultaneous pitch distance.
 
-- Intervals: 0 (Perfect unison), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 9 (Major sixth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 9 (Major sixth), 12 (Perfect octave).
 - 6 choices; harmonic; slow; 1200 ms per note.
 - GM programs (zero-based): 52 Choir Aahs.
 - Lower/root MIDI range: 60–67.
@@ -665,16 +665,16 @@ Slow choir attacks require sustained attention to simultaneous pitch distance.
 
 An intentionally simple mixed-mode lesson follows the unfamiliar choir.
 
-- Intervals: 0 (Perfect unison), 7 (Perfect fifth).
+- Intervals: 4 (Major third), 7 (Perfect fifth).
 - 2 choices; mixed; normal; 900 ms per note.
 - GM programs (zero-based): 24 Nylon Guitar.
 - Lower/root MIDI range: 48–67.
 
-### 73. All thirteen — expert
+### 73. All twelve — expert
 
-First complete simple-interval pool, anchored by a single familiar instrument.
+First complete non-unison simple-interval pool, anchored by a single familiar instrument.
 
-- Intervals: 0 (Perfect unison), 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
+- Intervals: 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
 - 6 choices; ascending; normal; 850 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano.
 - Lower/root MIDI range: 55–72.
@@ -710,7 +710,7 @@ Alto and tenor sax blend adjacent small harmonic intervals.
 
 A wide root range prevents memorizing one marimba contour per answer.
 
-- Intervals: 0 (Perfect unison), 1 (Minor second), 3 (Minor third), 5 (Perfect fourth), 7 (Perfect fifth), 8 (Minor sixth), 10 (Minor seventh), 12 (Perfect octave).
+- Intervals: 1 (Minor second), 3 (Minor third), 5 (Perfect fourth), 7 (Perfect fifth), 8 (Minor sixth), 10 (Minor seventh), 12 (Perfect octave).
 - 6 choices; descending; fast; 450 ms per note.
 - GM programs (zero-based): 12 Marimba.
 - Lower/root MIDI range: 48–72.
@@ -719,7 +719,7 @@ A wide root range prevents memorizing one marimba contour per answer.
 
 Return to open intervals after the previous speed and transposition challenge.
 
-- Intervals: 0 (Perfect unison), 7 (Perfect fifth), 12 (Perfect octave), 5 (Perfect fourth).
+- Intervals: 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; harmonic; slow; 1100 ms per note.
 - GM programs (zero-based): 16 Drawbar Organ.
 - Lower/root MIDI range: 48–60.
@@ -735,9 +735,9 @@ Only seconds compete, but four timbres and every mode keep the lesson varied.
 
 ### 80. Fourth mosaic — expert
 
-Complete simple-interval coverage across keys, brass, strings and clarinet.
+Complete non-unison simple-interval coverage across keys, brass, strings and clarinet.
 
-- Intervals: 0 (Perfect unison), 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
+- Intervals: 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
 - 6 choices; mixed; normal; 850 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano, 56 Trumpet, 40 Violin, 71 Clarinet.
 - Lower/root MIDI range: 60–72.
@@ -750,7 +750,7 @@ Review 81–100: advanced simple-interval reviews include four gentle two-choice
 
 Vibraphone opens the last chapter with four familiar shapes and a clear contour.
 
-- Intervals: 0 (Perfect unison), 3 (Minor third), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 3 (Minor third), 5 (Perfect fourth), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; ascending; normal; 900 ms per note.
 - GM programs (zero-based): 11 Vibraphone.
 - Lower/root MIDI range: 60–72.
@@ -766,18 +766,18 @@ Dense wide-interval harmonies alternate violin and viola near their upper regist
 
 ### 83. Trumpet in motion — expert
 
-A fast descending brass survey spans changing roots and seven possible distances.
+A fast descending brass survey spans changing roots and six possible distances.
 
-- Intervals: 0 (Perfect unison), 2 (Major second), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 9 (Major sixth), 12 (Perfect octave).
+- Intervals: 2 (Major second), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 9 (Major sixth), 12 (Perfect octave).
 - 6 choices; descending; fast; 400 ms per note.
 - GM programs (zero-based): 56 Trumpet.
 - Lower/root MIDI range: 54–72.
 
 ### 84. Guitar shelter — recovery
 
-Compare unison with a minor ninth on slow nylon guitar; just two clear choices.
+Compare a perfect fifth with a minor ninth on slow nylon guitar; just two clear choices.
 
-- Intervals: 0 (Perfect unison), 13 (Minor ninth).
+- Intervals: 7 (Perfect fifth), 13 (Minor ninth).
 - 2 choices; ascending; slow; 1100 ms per note.
 - GM programs (zero-based): 24 Nylon Guitar.
 - Lower/root MIDI range: 48–55.
@@ -804,7 +804,7 @@ Upper-register piccolo narrows the focus to the octave and its neighbors.
 
 Low bass timbres and mixed modes challenge pitch separation over a broad pool.
 
-- Intervals: 0 (Perfect unison), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 10 (Minor seventh), 12 (Perfect octave).
+- Intervals: 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 7 (Perfect fifth), 10 (Minor seventh), 12 (Perfect octave).
 - 6 choices; mixed; slow; 1100 ms per note.
 - GM programs (zero-based): 32 Acoustic Bass, 33 Finger Bass.
 - Lower/root MIDI range: 36–55.
@@ -829,9 +829,9 @@ Oboe and clarinet combine close harmony with six distractor candidates.
 
 ### 90. Across the keyboard — expert
 
-The full interval pool spans three piano octaves at fast speed.
+The non-unison simple-interval pool spans three piano octaves at fast speed.
 
-- Intervals: 0 (Perfect unison), 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
+- Intervals: 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
 - 6 choices; mixed; fast; 450 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano.
 - Lower/root MIDI range: 43–79.
@@ -865,9 +865,9 @@ Fast bowed and pizzicato strings concentrate on small descending intervals.
 
 ### 94. Beyond the octave — recovery
 
-Introduce the minor tenth against unison on slow piano, with only two choices.
+Introduce the minor tenth against a perfect fifth on slow piano, with only two choices.
 
-- Intervals: 0 (Perfect unison), 15 (Minor tenth).
+- Intervals: 7 (Perfect fifth), 15 (Minor tenth).
 - 2 choices; ascending; slow; 1100 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano.
 - Lower/root MIDI range: 48–55.
@@ -892,9 +892,9 @@ Introduce the major tenth against a perfect fifth on slow flute, with two clear 
 
 ### 97. Chamber crossroads — expert
 
-Five familiar chamber colors cover every simple interval with changing modes.
+Five familiar chamber colors cover every non-unison simple interval with changing modes.
 
-- Intervals: 0 (Perfect unison), 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
+- Intervals: 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
 - 6 choices; mixed; normal; 900 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano, 24 Nylon Guitar, 40 Violin, 73 Flute, 71 Clarinet.
 - Lower/root MIDI range: 60–72.
@@ -910,18 +910,18 @@ A tiny pool hides a precise tritone/fifth distinction under fast mode changes.
 
 ### 99. One quiet breath — recovery
 
-Return to opening consonances for a calm, intentional penultimate level.
+Return to familiar thirds, fifth and octave for a calm, intentional penultimate level.
 
-- Intervals: 0 (Perfect unison), 4 (Major third), 7 (Perfect fifth), 12 (Perfect octave).
+- Intervals: 3 (Minor third), 4 (Major third), 7 (Perfect fifth), 12 (Perfect octave).
 - 4 choices; ascending; slow; 1100 ms per note.
 - GM programs (zero-based): 24 Nylon Guitar.
 - Lower/root MIDI range: 55–67.
 
-### 100. Intervalify finale — expert
+### 100. Listn finale — expert
 
-Final synthesis: all simple intervals, five timbres, all modes and six choices; compounds remain a separate skill.
+Final synthesis: all non-unison simple intervals, five timbres, all modes and six choices; compounds remain a separate skill.
 
-- Intervals: 0 (Perfect unison), 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
+- Intervals: 1 (Minor second), 2 (Major second), 3 (Minor third), 4 (Major third), 5 (Perfect fourth), 6 (Tritone), 7 (Perfect fifth), 8 (Minor sixth), 9 (Major sixth), 10 (Minor seventh), 11 (Major seventh), 12 (Perfect octave).
 - 6 choices; mixed; fast; 550 ms per note.
 - GM programs (zero-based): 0 Acoustic Grand Piano, 24 Nylon Guitar, 40 Violin, 56 Trumpet, 73 Flute.
 - Lower/root MIDI range: 60–72.

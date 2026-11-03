@@ -13,8 +13,8 @@ export default function LanguageSelector() {
         {(['en', 'de'] as const).map((code) => <Pressable key={code} accessibilityRole="button"
           accessibilityLabel={t('language.change', { language: code === 'en' ? 'English' : 'Deutsch' })}
           accessibilityState={{ selected: language === code }} onPress={() => { void languageController.setLanguage(code); }}
-          style={{ minHeight: 44, paddingHorizontal: 14, justifyContent: 'center', borderRadius: 12, backgroundColor: language === code ? colors.green : colors.pale }}>
-          <Text style={{ color: language === code ? '#FFFFFF' : colors.ink, fontWeight: '600' }}>{code === 'en' ? 'English' : 'Deutsch'}</Text>
+          style={{ minHeight: 44, paddingHorizontal: 14, justifyContent: 'center', borderRadius: 12, backgroundColor: language === code ? colors.primary : colors.pale }}>
+          <Text style={{ color: language === code ? colors.onPrimary : colors.ink, fontWeight: '600' }}>{code === 'en' ? 'English' : 'Deutsch'}</Text>
         </Pressable>)}
       </View>
     </View>

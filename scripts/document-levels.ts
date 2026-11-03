@@ -5,12 +5,12 @@ import { intervalName } from '../src/game/intervals';
 
 const reviews = [
   'Review 1–20: wide contrasts only. Every pair of eligible intervals differs by at least two semitones; most lessons offer just two choices. Existing wide-interval lessons were moved forward.',
-  'Review 21–40: introduce fine comparisons among unison, seconds, thirds and fourth (0–5 semitones). Larger intervals appear only in spaced reviews. Slow focused practice alternates with familiar wide contrasts.',
+  'Review 21–40: introduce fine comparisons among seconds, thirds and fourth (1–5 semitones). Larger intervals appear only in spaced reviews. Slow focused practice alternates with familiar wide contrasts.',
   'Review 41–60: begin neighboring larger intervals with slow two-choice lessons. The first 50 levels avoid fast playback and six-choice tasks; broader mixed pools follow from level 51.',
   'Review 61–80: combine the established interval vocabulary with timbre, direction, register and harmonic listening, interspersed with recovery lessons.',
   'Review 81–100: advanced simple-interval reviews include four gentle two-choice compound lessons at 84, 88, 94 and 96: minor ninth, major ninth, minor tenth and major tenth. Compounds are contrasted with easy, widely separated anchors.',
 ];
-const lines = ['# Intervalify level design', '',
+const lines = ['# Listn level design', '',
   'The permanent source is `src/game/levels.ts`: 100 individually authored configurations, not a procedural difficulty generator. This document is rendered from that authored list with `npm run docs:levels`.', '',
   'Every level has 10 questions. Root ranges always describe the lower note, including descending playback. Upper notes equal root + semitone distance. Speed changes melodic spacing, never pitch. Duration is independent. Mixed playback selects harmonic, ascending or descending per question.', '',
   'Difficulty labels are editorial intentions, not calibrated psychometric ratings. Listening tests with learners should inform future tuning. Every root/instrument/interval combination is validated against bundled samples.', ''];

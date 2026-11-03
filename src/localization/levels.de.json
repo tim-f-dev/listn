@@ -93,7 +93,7 @@
   },
   "24": {
     "title": "Vier vertraute Formen",
-    "description": "Wiederhole Prime, große Terz, Quinte und Oktave mit vier klaren Klavierantworten."
+    "description": "Wiederhole große Sekunde, große Terz, Quinte und Oktave mit vier klaren Klavierantworten."
   },
   "25": {
     "title": "Hohes Porzellan",
@@ -288,8 +288,8 @@
     "description": "Eine bewusst einfache Übung mit wechselnder Wiedergabe folgt auf die ungewohnten Chorklänge."
   },
   "73": {
-    "title": "Alle dreizehn",
-    "description": "Erstmals stehen alle einfachen Intervalle zur Auswahl, getragen von einem vertrauten Instrument."
+    "title": "Alle zwölf",
+    "description": "Erstmals stehen alle einfachen Intervalle außer der Prime zur Auswahl, getragen von einem vertrauten Instrument."
   },
   "74": {
     "title": "Gedämpfte Blechbläserzwillinge",
@@ -317,7 +317,7 @@
   },
   "80": {
     "title": "Das vierte Klangmosaik",
-    "description": "Alle einfachen Intervalle in Klavier-, Trompeten-, Streicher- und Klarinettenklängen wiederholen."
+    "description": "Alle einfachen Intervalle außer der Prime in Klavier-, Trompeten-, Streicher- und Klarinettenklängen wiederholen."
   },
   "81": {
     "title": "Ein klarer Einstieg",
@@ -329,11 +329,11 @@
   },
   "83": {
     "title": "Trompete in Bewegung",
-    "description": "Schnelle absteigende Blechbläserintervalle verbinden wechselnde Grundtöne mit sieben möglichen Abständen."
+    "description": "Schnelle absteigende Blechbläserintervalle verbinden wechselnde Grundtöne mit sechs möglichen Abständen."
   },
   "84": {
     "title": "Zuflucht bei der Gitarre",
-    "description": "Vergleiche die Prime mit der kleinen None auf langsam gespielter Nylongitarre: nur zwei deutlich verschiedene Antworten."
+    "description": "Vergleiche die reine Quinte mit der kleinen None auf langsam gespielter Nylongitarre: nur zwei deutlich verschiedene Antworten."
   },
   "85": {
     "title": "Nachbarn auf den Tasten",
@@ -357,7 +357,7 @@
   },
   "90": {
     "title": "Quer über die Klaviatur",
-    "description": "Alle einfachen Intervalle erstrecken sich im schnellen Tempo über drei Klavieroktaven."
+    "description": "Alle einfachen Intervalle außer der Prime erstrecken sich im schnellen Tempo über drei Klavieroktaven."
   },
   "91": {
     "title": "Wiedersehen mit den Flötenterzen",
@@ -373,7 +373,7 @@
   },
   "94": {
     "title": "Jenseits der Oktave",
-    "description": "Lerne die kleine Dezime im Vergleich zur Prime auf langsam gespieltem Klavier kennen – mit nur zwei Antworten."
+    "description": "Lerne die kleine Dezime im Vergleich zur reinen Quinte auf langsam gespieltem Klavier kennen – mit nur zwei Antworten."
   },
   "95": {
     "title": "Die Rückkehr des tiefen Blechs",
@@ -385,7 +385,7 @@
   },
   "97": {
     "title": "Kammermusik an der Kreuzung",
-    "description": "Fünf vertraute Kammermusikfarben decken alle einfachen Intervalle und wechselnde Wiedergabearten ab."
+    "description": "Fünf vertraute Kammermusikfarben decken alle einfachen Intervalle außer der Prime und wechselnde Wiedergabearten ab."
   },
   "98": {
     "title": "Das letzte schnelle Paar",
@@ -393,10 +393,10 @@
   },
   "99": {
     "title": "Ein ruhiger Atemzug",
-    "description": "Die Konsonanzen des Anfangs kehren für ein bewusst ruhiges vorletztes Level zurück."
+    "description": "Vertraute Terzen, Quinte und Oktave kehren für ein bewusst ruhiges vorletztes Level zurück."
   },
   "100": {
-    "title": "Das Intervalify-Finale",
-    "description": "Alle einfachen Intervalle, fünf Klangfarben, alle Wiedergabearten und sechs Antworten vereinen das Gelernte; erweiterte Intervalle bleiben eine eigene Aufgabe."
+    "title": "Das Listn-Finale",
+    "description": "Alle einfachen Intervalle außer der Prime, fünf Klangfarben, alle Wiedergabearten und sechs Antworten vereinen das Gelernte; erweiterte Intervalle bleiben eine eigene Aufgabe."
   }
 }

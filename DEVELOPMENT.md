@@ -1,4 +1,4 @@
-# Developing Intervalify
+# Developing Listn
 
 Setup, project structure, audio tooling, validation and deployment instructions for the shared TypeScript, React Native and Expo codebase. For an introduction to the project, see [README.md](README.md).
 
@@ -47,7 +47,7 @@ Choose a level, listen and select an interval whenever you are ready, including 
 
 Stars: **5/10 = one**, **8/10 = two**, **10/10 = three**. Thresholds are configurable in `src/game/progress.ts`. Best scores and stars never decrease. Pack 1 starts open. Packs 2–5 require 30, 60, 90 and 120 total stars across the game. Each pack contains the same 20 consecutive level IDs as before. Its first level opens when the total-star gate is met; later levels open sequentially after one star in the preceding level within that pack.
 
-Progress is stored using AsyncStorage under `intervalify.progress.v1`. The saved record includes best scores/stars, unlocked levels and chapter totals. Derived unlocks are recomputed on load to avoid stale state. Saves are serialized, storage failures are shown with a Retry action, and invalid saves are not silently overwritten. Clearing app/browser data removes progress. Results are local to each device/browser; there is no cloud sync.
+Progress is stored using AsyncStorage under `listn.progress.v1`. The saved record includes best scores/stars, unlocked levels and chapter totals. Derived unlocks are recomputed on load to avoid stale state. Saves are serialized, storage failures are shown with a Retry action, and invalid saves are not silently overwritten. Clearing app/browser data removes progress. Results are local to each device/browser; there is no cloud sync.
 
 ## Structure
 
@@ -128,11 +128,11 @@ The entire interface supports English and German, with automatic first-launch lo
 
 ## Cloudflare Workers deployment
 
-This repository includes `wrangler.jsonc` for the existing `intervalify` Worker. It serves the web export as static assets, with SPA fallback for `/privacy`, `/legal`, `/play/1` and other Expo Router routes. No Worker backend script is needed.
+This repository includes `wrangler.jsonc` for a Worker named `listn`. The deployed legacy Worker has not been renamed; see the rename notes below. It serves the web export as static assets, with SPA fallback for `/privacy`, `/legal`, `/play/1` and other Expo Router routes. No Worker backend script is needed.
 
-In Cloudflare > Workers & Pages > intervalify > Settings > Builds, use:
+In Cloudflare > Workers & Pages > listn > Settings > Builds, use:
 
-- Git repository: `tim-f-dev/intervalify`
+- Git repository: `tim-f-dev/listn`
 - Production branch: `main`
 - Disable builds: off
 - Build command: `npm run export:web`
@@ -164,7 +164,7 @@ Only three screens permit a scrollbar, inside their own containers: Privacy (`pr
 
 Home no longer displays the listening instructions or headphone/volume tip. Both appear in the localized tutorial shown before the first unlocked level entered in each app session (a fresh app launch or full web reload). The tutorial must be dismissed before the exercise mounts or any audio starts. Later levels, retries, navigation and background/resume in the same session do not show it again.
 
-`TutorialSession` keeps the per-session dismissal flag in memory. Only an explicit “Don't show again” choice is saved through AsyncStorage, under `intervalify.tutorial.hidden.v1`, independently of scores and language. Preference hydration gates the exercise to prevent a cold-load playback race. If saving fails, the dialog stays open for retry or the user can uncheck the box and continue without saving. Native Back and web Escape dismiss the dialog using the current checkbox selection. Session, hydration, persistence and failure handling are covered in `tests/tutorial.test.ts`.
+`TutorialSession` keeps the per-session dismissal flag in memory. Only an explicit “Don't show again” choice is saved through AsyncStorage, under `listn.tutorial.hidden.v1`, independently of scores and language. Preference hydration gates the exercise to prevent a cold-load playback race. If saving fails, the dialog stays open for retry or the user can uncheck the box and continue without saving. Native Back and web Escape dismiss the dialog using the current checkbox selection. Session, hydration, persistence and failure handling are covered in `tests/tutorial.test.ts`.
 
 Use the existing port 8084 for local previews. A production service-worker update waits for existing tabs to close before activation; refresh/reopen the preview to activate a new build rather than opening another port or clearing progress.
 
@@ -173,3 +173,16 @@ Use the existing port 8084 for local previews. A production service-worker updat
 Run `npm run export:test` to create an all-levels-unlocked web preview in `dist`. Reuse the existing localhost preview server on port 8084. The unlock flag exists only for that export command; normal `npm run export` and Cloudflare builds default to normal progression. The web flag additionally requires a loopback hostname, so intervalify.app keeps normal locks even if a test export is uploaded accidentally.
 
 Unlocks are an in-memory access override. No scores or stars are fabricated, and canonical derived unlocks are saved when a test level is completed. Real results earned while testing are saved normally. Run a normal export to return the local preview to normal progression.
+
+
+## Listn rename: release follow-up
+
+The visible app name, package metadata, Expo slug, URL scheme, storage keys and offline cache identifiers now use Listn/listn. The website remains https://intervalify.app/.
+
+- **EAS build blocker:** the existing `extra.eas.projectId` is retained, but its remote project was created under the previous slug. Expo documents project slugs as fixed per project ID. Resolve the remote project association before the next EAS build; do not delete the existing project or signing credentials. If a new Listn EAS project is needed, reuse the existing Android upload key and set its remote Android version code higher than the last uploaded release.
+- **Google Play identity:** keep `android.package` as `app.listn.mobile` and retain the signing credentials. A new binary is needed for the installed display name and URL scheme changes.
+- **Existing test data:** the app now reads `listn.progress.v1`, `listn.language.v1` and `listn.tutorial.hidden.v1`. Old records are not deleted, but are no longer read. This is a fresh-start rename, not a storage migration; migrate old records before distributing an update if tester progress/settings must carry over.
+- **Deep links:** the scheme is now `listn://`. Links using the former scheme will not open the rebuilt app.
+- **Website deployment:** Wrangler now targets `listn`, which does not automatically rename the deployed Worker or move its custom domain. Review the Cloudflare build connection, Worker target and domain binding before deploying. The Git remote already points to `tim-f-dev/listn`.
+- **Offline web cache:** new exports use the `listn-` cache prefix. Previously named caches are not automatically deleted by the new prefix-based cleanup and may consume storage until site data is cleared. Old open/cached pages may show the former branding until updated.
+- **Scope:** no remote Expo/Cloudflare settings, Git history, previously generated bundles or installed apps are changed by this source rename.

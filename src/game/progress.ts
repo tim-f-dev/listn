@@ -57,7 +57,7 @@ export function parseProgress(raw: string | null): Progress {
   return deriveProgress(best);
 }
 export interface Storage { getItem(key: string): Promise<string | null>; setItem(key: string, value: string): Promise<void> }
-export const PROGRESS_KEY = 'intervalify.progress.v1';
+export const PROGRESS_KEY = 'listn.progress.v1';
 export class ProgressStore {
   private writes = Promise.resolve();
   constructor(private storage: Storage) {}

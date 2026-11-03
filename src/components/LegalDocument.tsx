@@ -17,15 +17,15 @@ export default function LegalDocument({ kind }: { kind: 'privacy' | 'legal' }) {
     <View style={ui.card}>
       <Text role="heading" style={ui.heading}>{t('legalPages.responsible')}</Text>
       <Text selectable style={ui.body}>{operator.name}{'\n'}{operator.address}{'\n'}{t('legalPages.country')}</Text>
-      <Link href={`mailto:${operator.email}`} style={{ color: colors.green, fontSize: 16 }}>{operator.email}</Link>
+      <Link href={`mailto:${operator.email}`} style={{ color: colors.primary, fontSize: 16 }}>{operator.email}</Link>
     </View>
     {sections.map((section) => <View key={section} style={{ gap: 8 }}>
       <Text role="heading" style={ui.heading}>{t(`${kind}.${section}.title`)}</Text>
       <Text selectable style={ui.body}>{t(`${kind}.${section}.body`)}</Text>
-      {section === 'hosting' && <Link href="https://www.cloudflare.com/privacypolicy/" style={{ color: colors.green, fontSize: 16 }}>{t('privacy.hosting.link')}</Link>}
+      {section === 'hosting' && <Link href="https://www.cloudflare.com/privacypolicy/" style={{ color: colors.primary, fontSize: 16 }}>{t('privacy.hosting.link')}</Link>}
     </View>)}
     </ScrollView>
     </View>
-    <Link href={kind === 'privacy' ? '/legal' : '/privacy'} style={{ color: colors.green, fontSize: 16 }}>{t(kind === 'privacy' ? 'legal.title' : 'privacy.title')}</Link>
+    <Link href={kind === 'privacy' ? '/legal' : '/privacy'} style={{ color: colors.primary, fontSize: 16 }}>{t(kind === 'privacy' ? 'legal.title' : 'privacy.title')}</Link>
   </Page>;
 }

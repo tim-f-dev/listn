@@ -1,6 +1,6 @@
 # Third-party licenses and notices
 
-Original Intervalify material owned by Tim Fischer is governed by the root
+Original Listn material owned by Tim Fischer is governed by the root
 `LICENSE`. That proprietary notice does not apply to third-party components
 and does not replace or remove their licenses.
 
