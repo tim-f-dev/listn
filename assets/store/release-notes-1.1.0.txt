@@ -1,0 +1,12 @@
+<de-DE>
+• Neues Listn-Design mit überarbeiteter Navigation und Levelvorschau.
+• 100 neu abgestimmte Levels mit behutsamen Einführungen in neue Instrumente und Intervalle.
+• Anspruchsvollere Intervallvergleiche und gezieltes Training von Nonen und Dezimen.
+• Einführung in harmonische Intervalle vor der ersten entsprechenden Übung.
+</de-DE>
+<en-US>
+• New Listn design with updated navigation and level previews.
+• 100 rebalanced levels with gentle introductions to new instruments and intervals.
+• More challenging interval comparisons and focused practice of ninths and tenths.
+• A harmonic interval introduction before your first simultaneous-note exercise.
+</en-US>

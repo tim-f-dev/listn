@@ -1,5 +1,7 @@
 # Packaging readiness — 2026-11-03
 
+Latest follow-up: user requested version 1.1; app.json, package.json and package-lock.json now use **1.1.0**. Lint/typecheck passed. EAS project:info still could not run: the default CLI cache had a missing yallist dependency and a fresh isolated CLI cache failed with npm ECOMPROMISED/Lock compromised. The remote association remains unverified. No build or upload occurred. DE/EN release notes are in assets/store/release-notes-1.1.0.txt.
+
 ## Patch update completed
 
 The user subsequently authorized the nine SDK-compatible updates. Installed versions are now expo 58.0.22, expo-asset 58.0.19, expo-audio 58.0.11, expo-constants 58.0.14, expo-linking 58.0.15, expo-router 58.0.29, expo-status-bar 58.0.4, react-native 0.88.1 and react-native-screens 4.30.1. package-lock.json records all nine; expo-asset and expo-constants remain within their existing manifest ranges. Expo's installer also added the expo-status-bar config plugin to app.json.
