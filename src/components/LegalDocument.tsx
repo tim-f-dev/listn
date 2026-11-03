@@ -8,7 +8,7 @@ export default function LegalDocument({ kind }: { kind: 'privacy' | 'legal' }) {
   const { t } = useTranslation();
   const sections = kind === 'privacy' ? ['overview', 'storage', 'hosting', 'contact', 'rights'] : ['operator', 'contact', 'content'];
   return <Page compact>
-    <Button secondary onPress={() => router.canGoBack() ? router.back() : router.replace('/')}>{t('nav.back')}</Button>
+    <Button leadingIcon="back" secondary onPress={() => router.canGoBack() ? router.back() : router.replace('/')}>{t('nav.back')}</Button>
     <Text role="heading" style={ui.title}>{t(`${kind}.title`)}</Text>
     <Text style={ui.small}>{t('legalPages.updated')}</Text>
     <View style={{ flex: 1, minHeight: 0, borderRadius: 20, borderWidth: 1, borderColor: colors.border, backgroundColor: colors.paper, overflow: 'hidden' }}>

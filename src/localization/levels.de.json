@@ -4,248 +4,248 @@
     "description": "Prime und Oktave unterscheiden: ein enger Grundtonbereich sorgt für einen ruhigen Einstieg."
   },
   "2": {
-    "title": "Ein Gruß der Trompete",
-    "description": "Die Trompete stellt große Terz und reine Quinte gegenüber."
+    "title": "Durchatmen im Bass",
+    "description": "Vergleiche Prime und Oktave auf tiefem Kontrabass, bevor die Abstände enger werden."
   },
   "3": {
-    "title": "Gitarrenklänge abwärts",
-    "description": "Die ersten absteigenden Tonpaare verwenden vertraute, weit auseinanderliegende Intervalle."
+    "title": "Eine Lichtung aus Saiten",
+    "description": "Unterscheide Prime und aufsteigende Oktave auf gezupften Streichern."
   },
   "4": {
     "title": "Gemeinsam am Klavier",
-    "description": "Erste gleichzeitige Töne: Höre auf den zusätzlichen Ton statt auf eine Melodie."
+    "description": "Vergleiche Prime und aufsteigende Quinte auf vertrautem Klavier."
   },
   "5": {
-    "title": "Luftige Höhen",
-    "description": "Die Flöte verändert Klang und Tonlage; der Unterschied zwischen den Intervallen bleibt deutlich."
-  },
-  "6": {
     "title": "Das Fundament des Cellos",
     "description": "Tiefe Cellotöne führen das Hören im Bassregister ohne eng benachbarte Intervalle ein."
   },
+  "6": {
+    "title": "Eine klare Landung",
+    "description": "Erkenne absteigende Prime und Quinte auf einer klar klingenden E-Gitarre."
+  },
   "7": {
-    "title": "Ein Stück weiter",
-    "description": "Die Klarinette führt große Sekunde und reine Quarte mit zwei Antwortmöglichkeiten ein."
+    "title": "Luftige Höhen",
+    "description": "Die Flöte verändert Klang und Tonlage; der Unterschied zwischen den Intervallen bleibt deutlich."
   },
   "8": {
-    "title": "Durchatmen im Bass",
-    "description": "Prime und Oktave auf dem tiefen Kontrabass erleichtern den nächsten Schritt."
+    "title": "Gitarrenklänge abwärts",
+    "description": "Erkenne absteigende Quinte und Oktave auf der Nylongitarre."
   },
   "9": {
-    "title": "Eine Pause mit Trompete",
-    "description": "Zwei deutlich verschiedene Blechbläserintervalle entlasten nach der ersten Übung mit sechs Antworten."
-  },
-  "10": {
-    "title": "Ruhige tiefe Saiten",
-    "description": "Tiefe Cellotöne vergleichen Terz und Oktave als Erholung nach zwei anspruchsvolleren Übungen."
-  },
-  "11": {
-    "title": "Eine klare Landung",
-    "description": "Unverzerrte E-Gitarre bietet einen leichten Neustart mit größerem Grundtonbereich."
-  },
-  "12": {
-    "title": "Rast an der Marimba",
-    "description": "Eine konsonante Übung mit kurzem Anschlag entlastet das Gedächtnis."
-  },
-  "13": {
-    "title": "Die Geometrie der Harfe",
-    "description": "Gleichmäßige Abstände von vier Halbtönen formen eine besondere Harfenübung."
-  },
-  "14": {
-    "title": "Der Horizont der Flöte",
-    "description": "Klare hohe Flötenquarten und -oktaven bieten eine bewusste Atempause vor dem Kapitelende."
-  },
-  "15": {
-    "title": "Zwei sanfte Zupfer",
-    "description": "Tiefe Gitarrenquarten und -oktaven entlasten nach dichten Zweiklängen und hohen Bläsern."
-  },
-  "16": {
-    "title": "Luft und Saiten",
-    "description": "Quarte und Quinte reduzieren die Belastung, während die Klangfarben weiter wechseln."
-  },
-  "17": {
-    "title": "Eine Lichtung aus Saiten",
-    "description": "Gezupfte Primen und Oktaven bilden eine bewusst leichte Erholungsübung."
-  },
-  "18": {
-    "title": "Trompete im Sonnenlicht",
-    "description": "Ein deutlicher Trompetenvergleich mit zwei Antworten entlastet nach kombinierten Herausforderungen."
-  },
-  "19": {
-    "title": "Ruhe mit der Flöte",
-    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
-  },
-  "20": {
-    "title": "Die erste Wegkreuzung",
-    "description": "Alle drei Wiedergabearten mit zwei vertrauten Klangfarben wiederholen."
-  },
-  "21": {
-    "title": "Lichter im Halbtonabstand",
-    "description": "Die kleine Sekunde neben der großen Sekunde in heller Celesta-Tonlage kennenlernen."
-  },
-  "22": {
     "title": "Schnelle Holzklänge",
     "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
   },
-  "23": {
-    "title": "Zwei Farben der Terz",
-    "description": "Die kleine Terz wird direkt neben der großen Terz eingeführt."
+  "10": {
+    "title": "Ein Gruß der Trompete",
+    "description": "Lerne die Trompete langsam im vertrauten Vergleich von großer Terz und Quinte kennen."
   },
-  "24": {
-    "title": "Vier vertraute Formen",
-    "description": "Wiederhole große Sekunde, große Terz, Quinte und Oktave mit vier klaren Klavierantworten."
+  "11": {
+    "title": "Ein Stück weiter",
+    "description": "Die Klarinette führt große Sekunde und reine Quarte mit zwei Antwortmöglichkeiten ein."
   },
-  "25": {
-    "title": "Hohes Porzellan",
-    "description": "Vergleiche kleine Intervalle in langsamem Tempo. Wiederhole die Töne so oft, wie du möchtest."
+  "12": {
+    "title": "Rast an der Marimba",
+    "description": "Erste gleichzeitige Töne: Unterscheide große Terz und reine Quinte als Zusammenklänge auf der Marimba."
   },
-  "26": {
+  "13": {
+    "title": "Ruhe mit der Flöte",
+    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
+  },
+  "14": {
     "title": "Mit einem Bogenstrich",
     "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
   },
+  "15": {
+    "title": "Trompete im Sonnenlicht",
+    "description": "Festige vier deutlich getrennte Intervalle auf langsam gespielter Trompete mit vertrauten Tonfolgen."
+  },
+  "16": {
+    "title": "Eine Pause mit Trompete",
+    "description": "Vergleiche vier vertraute absteigende Trompetenintervalle; Quarte und Quinte liegen am nächsten beieinander."
+  },
+  "17": {
+    "title": "Der Horizont der Flöte",
+    "description": "Vergleiche vier deutlich getrennte Intervalle auf hoher Flöte in langsamem Tempo."
+  },
+  "18": {
+    "title": "Zwei sanfte Zupfer",
+    "description": "Vergleiche vier absteigende Intervalle auf tiefer Nylongitarre, darunter die enger benachbarten Quarte und Quinte."
+  },
+  "19": {
+    "title": "Die Geometrie der Harfe",
+    "description": "Lerne Harfe und kleine Sexte mit vier deutlich getrennten Intervallen, langsamen Tönen und engem Grundtonbereich kennen."
+  },
+  "20": {
+    "title": "Die erste Wegkreuzung",
+    "description": "Melodische Intervalle wechseln zwischen aufsteigenden und absteigenden Tönen; harmonische Intervalle kommen nicht vor."
+  },
+  "21": {
+    "title": "Schnelle Blechbläseranker",
+    "description": "Wiederhole vier vertraute, deutlich getrennte Trompetenintervalle vor den feineren Vergleichen."
+  },
+  "22": {
+    "title": "Vier vertraute Formen",
+    "description": "Verbinde weite Vergleiche und benachbarte Antworten mit großer Sekunde, großer Terz, Quarte und Quinte auf dem Klavier."
+  },
+  "23": {
+    "title": "Luft und Saiten",
+    "description": "Vergleiche vier vertraute Intervalle auf Geige und Flöte in beiden melodischen Richtungen."
+  },
+  "24": {
+    "title": "Lichter im Halbtonabstand",
+    "description": "Lerne kleine Sekunde und Celesta langsam kennen; die vertraute große Terz dient als deutlich getrennte Alternative."
+  },
+  "25": {
+    "title": "Zwei Farben der Terz",
+    "description": "Lerne die kleine Terz neben der vertrauten großen Terz auf langsamem Klavier kennen, mit nur zwei Antworten."
+  },
+  "26": {
+    "title": "Hohes Porzellan",
+    "description": "Festige vier benachbarte kleine Intervalle auf vertrauter Celesta mit langsamen aufsteigenden Tönen."
+  },
   "27": {
     "title": "Terzen auf dem Weg nach unten",
-    "description": "Vergleiche kleine Intervalle in langsamem Tempo. Wiederhole die Töne so oft, wie du möchtest."
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "28": {
-    "title": "Drei Weggefährten",
-    "description": "Geige, Gitarre und Flöte teilen denselben Grundtonbereich; erkenne das Intervall trotz verschiedener Tonansätze."
+    "title": "Ruhige tiefe Saiten",
+    "description": "Vergleiche vier benachbarte kleine Intervalle als Zusammenklänge auf tiefem Cello."
   },
   "29": {
     "title": "Dicht gedrängte Tasten",
-    "description": "Vergleiche kleine Intervalle in langsamem Tempo. Wiederhole die Töne so oft, wie du möchtest."
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "30": {
-    "title": "Glockenspiel im Laufschritt",
-    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
+    "title": "Drei Weggefährten",
+    "description": "Vergleiche vier benachbarte kleine Intervalle langsam auf Geige, Gitarre und Flöte."
   },
   "31": {
-    "title": "Die kleinsten Schatten",
-    "description": "Vergleiche kleine Intervalle in langsamem Tempo. Wiederhole die Töne so oft, wie du möchtest."
+    "title": "Glockenspiel im Laufschritt",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "32": {
-    "title": "Tiefe Blechbläserwinkel",
-    "description": "Die Tuba verlegt vertraute Intervalle in ihr natürliches tiefes Register."
+    "title": "Die kleinsten Schatten",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "33": {
+    "title": "Tiefe Blechbläserwinkel",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
+  },
+  "34": {
     "title": "Sekunden in Gesellschaft",
     "description": "Vergleiche kleine Intervalle in langsamem Tempo. Wiederhole die Töne so oft, wie du möchtest."
   },
-  "34": {
-    "title": "Fenster der Piccoloflöte",
-    "description": "Die Piccoloflöte mit vertrauten Intervallen in ihrem natürlichen hohen Register einführen."
-  },
   "35": {
-    "title": "Schnelle Blechbläseranker",
-    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
+    "title": "Fenster der Piccoloflöte",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "36": {
     "title": "Der weite Klavierkompass",
-    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
+    "description": "Vergleiche eng benachbarte kleine Intervalle auf tiefem Klavier mit vier Antworten pro Frage."
   },
   "37": {
     "title": "Gitarrenblitze",
-    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
+    "description": "Unterscheide vier benachbarte absteigende Intervalle auf Nylon- und klar klingender E-Gitarre."
   },
   "38": {
     "title": "Wege des Fagotts",
-    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "39": {
     "title": "Eine Einladung der Harfe",
-    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
+    "description": "Erkenne vier benachbarte kleine Intervalle trotz des gezupften Anschlags der Harfe."
   },
   "40": {
     "title": "Sprint der hohen Flöten",
-    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
+    "description": "Festige kleine benachbarte Intervalle auf Piccolo und Flöte in beiden melodischen Richtungen."
   },
   "41": {
     "title": "Die schiefe Quinte",
-    "description": "Konzentriere dich auf zwei benachbarte Intervalle, langsam aufwärts auf einem Instrument gespielt."
+    "description": "Lerne den Tritonus auf vertrautem Vibrafon neben einer deutlich getrennten großen Terz kennen."
   },
   "42": {
     "title": "Warme Sexten",
-    "description": "Kleine und große Sexte mit dem sanften Anschlag der Nylonsaitengitarre kennenlernen."
+    "description": "Lerne die große Sexte auf langsamer Gitarre zwischen drei vertrauten, deutlich getrennten Intervallen kennen."
   },
   "43": {
     "title": "Septimen im Rohrblattklang",
-    "description": "Konzentriere dich auf zwei benachbarte Intervalle, langsam aufwärts auf einem Instrument gespielt."
+    "description": "Lerne Oboe und kleine Septime mit langsamen Tönen und vier deutlich getrennten Antworten kennen."
   },
   "44": {
     "title": "Sexten in der Luft",
-    "description": "Konzentriere dich auf zwei benachbarte Intervalle, langsam aufwärts auf einem Instrument gespielt."
+    "description": "Festige vier benachbarte größere Intervalle langsam auf vertrauter Flöte."
   },
   "45": {
-    "title": "Die Rückkehr der Celloterzen",
-    "description": "Ein gezielter Vergleich tiefer gleichzeitiger Terzen bietet Ruhe bei weiterhin feiner Unterscheidung."
+    "title": "Fallende Septimen",
+    "description": "Lerne die große Septime langsam abwärts auf vertrauter Flöte mit deutlich getrennten Alternativen kennen."
   },
   "46": {
-    "title": "Fallende Septimen",
-    "description": "Konzentriere dich auf zwei benachbarte Intervalle, langsam aufwärts auf einem Instrument gespielt."
+    "title": "Sexten unter Glas",
+    "description": "Vergleiche vier benachbarte größere Intervalle auf vertrauter Celesta in langsamem Tempo."
   },
   "47": {
-    "title": "Sexten unter Glas",
-    "description": "Konzentriere dich auf zwei benachbarte Intervalle, langsam aufwärts auf einem Instrument gespielt."
+    "title": "Der wandernde Halbton",
+    "description": "Vergleiche vier benachbarte Intervalle um Quarte und Quinte auf Klavier und Trompete."
   },
   "48": {
-    "title": "Der wandernde Halbton",
-    "description": "Konzentriere dich auf zwei benachbarte Intervalle, langsam aufwärts auf einem Instrument gespielt."
+    "title": "Die Rückkehr der Celloterzen",
+    "description": "Festige vier benachbarte kleine harmonische Intervalle auf vertrautem tiefem Cello."
   },
   "49": {
-    "title": "Willkommen bei der Bratsche",
-    "description": "Vergleiche Terzen, Quarte und Quinte auf der Bratsche in langsamem Tempo mit vier Antworten."
+    "title": "Wiedersehen mit den Flötenterzen",
+    "description": "Vergleiche vier benachbarte kleine Intervalle auf langsamer Flöte mit engem Grundtonbereich."
   },
   "50": {
-    "title": "Der weite Blick des Cellos",
-    "description": "Erkenne vertraute Intervalle in ruhigem Tempo mit höchstens vier Antwortmöglichkeiten."
+    "title": "Zwei Bassfarben",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "51": {
-    "title": "Sechs Wegweiser",
-    "description": "Sechs Antworten verbinden jetzt vertraute kleine und große Intervalle auf langsam gespieltem Klavier."
+    "title": "Gedämpfte Blechbläserzwillinge",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "52": {
-    "title": "Fast am Ziel",
-    "description": "Beide Septimen rund um die Oktave einführen; die Quinte dient als Orientierung."
+    "title": "Willkommen bei der Bratsche",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "53": {
+    "title": "Der weite Blick des Cellos",
+    "description": "Vergleiche weiterhin eng benachbarte Intervalle von Quarte bis kleiner Sexte in ruhigem Tempo auf tiefem Cello."
+  },
+  "54": {
+    "title": "Fast am Ziel",
+    "description": "Vergleiche große Sexte, beide Septimen und Oktave auf langsam gespieltem Klavier."
+  },
+  "55": {
     "title": "Rund um die Quarte",
     "description": "Vier benachbarte Intervalle rund um die reine Quarte unterscheiden."
   },
-  "54": {
-    "title": "Am Rohrblatt-Knotenpunkt",
-    "description": "Altsaxofon und Klarinette mischen Intervalle mit unterschiedlicher harmonischer Spannung."
-  },
-  "55": {
-    "title": "Drei Wege hindurch",
-    "description": "Klavier und Geige wechseln zwischen sechs benachbarten Abständen und allen Wiedergabearten."
-  },
   "56": {
-    "title": "Orgel in der Dämmerung",
-    "description": "Lange tiefe Orgelzweiklänge erschweren die Unterscheidung von Sexten und Septimen."
+    "title": "Am Rohrblatt-Knotenpunkt",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "57": {
-    "title": "Wechselnde Holzklänge",
-    "description": "Marimba und Xylofon wechseln zwischen engen Sekunden und weiteren spannungsreichen Paaren."
+    "title": "Sechs Wegweiser",
+    "description": "Erweitere auf sechs benachbarte Intervallantworten auf langsamem, vertrautem Klavier."
   },
   "58": {
     "title": "Akkordeonwinkel",
-    "description": "Das Akkordeon führt ein reiches Klangspektrum mit sechs bewusst unregelmäßigen Abständen ein."
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "59": {
-    "title": "Elf benachbarte Türen",
-    "description": "Alle einfachen Intervalle außer Prime und Oktave können unter sechs Antworten erscheinen."
+    "title": "Drei Wege hindurch",
+    "description": "Melodische Intervalle wechseln zwischen aufsteigenden und absteigenden Tönen; harmonische Intervalle kommen nicht vor."
   },
   "60": {
     "title": "Das dritte Klangmosaik",
-    "description": "Vier vertraute Klangfarben wiederholen eine breite Intervallauswahl mit wechselnder Wiedergabe."
+    "description": "Wiederhole alle einfachen Intervalle in beiden melodischen Richtungen mit sechs eng gruppierten Antworten."
   },
   "61": {
     "title": "Das erste Klangmosaik",
-    "description": "Klangfarben und Wiedergabearten mit überwiegend konsonanten Intervallen wiederholen."
+    "description": "Übertrage eng benachbarte Intervalle auf Klavier, Geige und Flöte in beiden melodischen Richtungen."
   },
   "62": {
     "title": "Klaviertöne im Schnelldurchlauf",
-    "description": "Sechs vertraute Intervalle kehren in höherem Tempo zurück."
+    "description": "Sechs benachbarte Intervalle kehren in schnellerem Tempo zurück."
   },
   "63": {
     "title": "Nahe der Oktave",
@@ -253,150 +253,150 @@
   },
   "64": {
     "title": "Bass unter Druck",
-    "description": "Tiefer Fingerbass verbindet benachbarte Intervalle, wechselnde Wiedergabearten und kürzere Töne."
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "65": {
-    "title": "Das zweite Klangmosaik",
-    "description": "Sechs Antworten wiederholen enge und weite Intervalle ohne zusätzliches Tempo."
+    "title": "Ecken des Clavinets",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "66": {
-    "title": "Ein Labyrinth tiefer Zweiklänge",
-    "description": "Sechs enge gleichzeitige Intervalle in tiefem Klavier und Cello verlangen geduldiges Hinhören."
+    "title": "Ein Neustart auf Nylonsaiten",
+    "description": "Erhole dich mit langsamer Nylongitarre und engem Grundtonbereich, während vier benachbarte Antworten erhalten bleiben."
   },
   "67": {
+    "title": "Intervalle im Chor",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
+  },
+  "68": {
+    "title": "Säulen der Orgel",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
+  },
+  "69": {
+    "title": "Schatten der Doppelrohrblätter",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
+  },
+  "70": {
+    "title": "Celesta im Zickzack",
+    "description": "Unterscheide sechs benachbarte kleine Intervalle auf schneller Celesta in beiden melodischen Richtungen."
+  },
+  "71": {
+    "title": "Das Spektrum der Marimba",
+    "description": "Vergleiche eng benachbarte größere Intervalle auf schnell absteigender Marimba über einen weiten Grundtonbereich."
+  },
+  "72": {
+    "title": "Halbtonstaffel",
+    "description": "Vergleiche vier benachbarte kleine Intervalle auf vertrauten Instrumenten in beiden melodischen Richtungen in schnellem Tempo."
+  },
+  "73": {
+    "title": "Das letzte schnelle Paar",
+    "description": "Vergleiche vier benachbarte Intervalle um die Quinte mit kurzen melodischen Tonpaaren auf Klavier und Trompete."
+  },
+  "74": {
+    "title": "Orgel in der Dämmerung",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
+  },
+  "75": {
+    "title": "Wechselnde Holzklänge",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
+  },
+  "76": {
+    "title": "Das zweite Klangmosaik",
+    "description": "Vergleiche einen dicht besetzten unteren Intervallbereich auf Klavier, Trompete und Gitarre in beiden melodischen Richtungen."
+  },
+  "77": {
     "title": "Rund um die Sexte",
     "description": "Die Stahlsaitengitarre vergleicht sechs direkt benachbarte Intervalle."
   },
-  "68": {
-    "title": "Schatten der Doppelrohrblätter",
-    "description": "Oboe und Englischhorn verbinden weniger vertraute Abstände mit ausreichend Hörzeit."
-  },
-  "69": {
-    "title": "Ecken des Clavinets",
-    "description": "Kurze Clavinet-Anschläge bieten eine rhythmische Aufgabe mit meist deutlichen Intervallen."
-  },
-  "70": {
-    "title": "Zwei Bassfarben",
-    "description": "Benachbarte Terzen auf Kontrabass und bundlosem Bass ohne gleichzeitige Töne vergleichen."
-  },
-  "71": {
-    "title": "Intervalle im Chor",
-    "description": "Langsam ansprechende Chorklänge erfordern anhaltende Aufmerksamkeit für gleichzeitige Tonabstände."
-  },
-  "72": {
-    "title": "Ein Neustart auf Nylonsaiten",
-    "description": "Eine bewusst einfache Übung mit wechselnder Wiedergabe folgt auf die ungewohnten Chorklänge."
-  },
-  "73": {
-    "title": "Alle zwölf",
-    "description": "Erstmals stehen alle einfachen Intervalle außer der Prime zur Auswahl, getragen von einem vertrauten Instrument."
-  },
-  "74": {
-    "title": "Gedämpfte Blechbläserzwillinge",
-    "description": "Der gezielte Septimenvergleich führt die gedämpfte Trompete mit langen Tönen ein."
-  },
-  "75": {
-    "title": "Celesta im Zickzack",
-    "description": "Hohe Celesta, sechs Antworten und schnelle Wechsel der Wiedergabe verbinden drei Anforderungen."
-  },
-  "76": {
-    "title": "Nachbarn im Saxofonklang",
-    "description": "Alt- und Tenorsaxofon mischen benachbarte kleine Intervalle zu Zweiklängen."
-  },
-  "77": {
-    "title": "Das Spektrum der Marimba",
-    "description": "Ein weiter Grundtonbereich verhindert das Auswendiglernen einer einzigen Tonfolge pro Intervall."
-  },
   "78": {
-    "title": "Säulen der Orgel",
-    "description": "Nach Tempo und wechselnden Tonlagen kehrt die Übung zu offenen Intervallen zurück."
+    "title": "Nachbarn im Saxofonklang",
+    "description": "Lerne das neue Instrument mit langsamen Tönen, vier vertrauten, deutlich getrennten Intervallen und engem Grundtonbereich kennen."
   },
   "79": {
-    "title": "Halbtonstaffel",
-    "description": "Nur Sekunden stehen zur Wahl; vier Klangfarben und alle Wiedergabearten sorgen für Abwechslung."
+    "title": "Elf benachbarte Türen",
+    "description": "Alle einfachen Intervalle außer Prime und Oktave können unter sechs Antworten erscheinen."
   },
   "80": {
     "title": "Das vierte Klangmosaik",
-    "description": "Alle einfachen Intervalle außer der Prime in Klavier-, Trompeten-, Streicher- und Klarinettenklängen wiederholen."
+    "description": "Melodische Intervalle wechseln zwischen aufsteigenden und absteigenden Tönen; harmonische Intervalle kommen nicht vor."
   },
   "81": {
     "title": "Ein klarer Einstieg",
-    "description": "Das Vibraphon eröffnet das letzte Kapitel mit vier vertrauten Intervallen und klarem Tonverlauf."
+    "description": "Beginne das letzte Paket mit vier benachbarten Sexten und Septimen auf klar klingendem Vibrafon."
   },
   "82": {
-    "title": "Dicht gedrängte hohe Saiten",
-    "description": "Dichte große Zweiklänge wechseln zwischen Geige und Bratsche im oberen Register."
+    "title": "Zuflucht bei der Gitarre",
+    "description": "Lerne die kleine None langsam auf vertrauter Nylongitarre neben einer deutlich getrennten großen Sexte kennen."
   },
   "83": {
-    "title": "Trompete in Bewegung",
-    "description": "Schnelle absteigende Blechbläserintervalle verbinden wechselnde Grundtöne mit sechs möglichen Abständen."
+    "title": "Durchatmen mit der Harfe",
+    "description": "Lerne die große None auf langsamer Harfe zwischen drei vertrauten, deutlich getrennten Intervallen kennen."
   },
   "84": {
-    "title": "Zuflucht bei der Gitarre",
-    "description": "Vergleiche die reine Quinte mit der kleinen None auf langsam gespielter Nylongitarre: nur zwei deutlich verschiedene Antworten."
+    "title": "Jenseits der Oktave",
+    "description": "Lerne die kleine Dezime auf langsamem Klavier zwischen drei vertrauten, deutlich getrennten Intervallen kennen."
   },
   "85": {
-    "title": "Nachbarn auf den Tasten",
-    "description": "Akustisches Klavier und E-Piano vergleichen sechs enge Abstände bei hohem Tempo."
+    "title": "Weite Flötenwege",
+    "description": "Lerne die große Dezime langsam auf vertrauter Flöte kennen, mit vier deutlich getrennten Antworten und engem Grundtonbereich."
   },
   "86": {
+    "title": "Ein ruhiger Atemzug",
+    "description": "Festige Oktave, Nonen und Dezimen auf langsamer Nylongitarre mit vier eng benachbarten Antworten."
+  },
+  "87": {
+    "title": "Alle zwölf",
+    "description": "Wiederhole alle zwölf einfachen Intervalle auf dem Klavier und vergleiche sechs nahe beieinanderliegende Antworten pro Frage."
+  },
+  "88": {
+    "title": "Trompete in Bewegung",
+    "description": "Unterscheide sechs benachbarte größere Intervalle auf schnell absteigender Trompete."
+  },
+  "89": {
     "title": "Das Kleingedruckte der Piccoloflöte",
     "description": "Die hohe Piccoloflöte konzentriert die Aufgabe auf die Oktave und ihre Nachbarn."
   },
-  "87": {
-    "title": "Das tiefe Oktavenrätsel",
-    "description": "Tiefe Bassklänge und wechselnde Wiedergabe erschweren die Tontrennung bei großer Intervallauswahl."
-  },
-  "88": {
-    "title": "Durchatmen mit der Harfe",
-    "description": "Vergleiche reine Quinte und große None auf langsam gespielter Harfe mit zwei weit auseinanderliegenden Antworten."
-  },
-  "89": {
-    "title": "Rohrblattklänge aus der Nähe",
-    "description": "Oboe und Klarinette verbinden enge Zweiklänge mit sechs Antwortmöglichkeiten."
-  },
   "90": {
-    "title": "Quer über die Klaviatur",
-    "description": "Alle einfachen Intervalle außer der Prime erstrecken sich im schnellen Tempo über drei Klavieroktaven."
+    "title": "Das tiefe Oktavenrätsel",
+    "description": "Unterscheide eng benachbarte Intervalle auf Kontrabass und E-Bass mit langsamen Tönen in beiden melodischen Richtungen."
   },
   "91": {
-    "title": "Wiedersehen mit den Flötenterzen",
-    "description": "Ein ruhiger Terzenvergleich schafft nach der umfassenden Klavieraufgabe einen klaren Neustart."
+    "title": "Dicht gedrängte hohe Saiten",
+    "description": "Dichte große Zweiklänge wechseln zwischen Geige und Bratsche im oberen Register."
   },
   "92": {
-    "title": "Metall und Holz",
-    "description": "Celesta, Vibraphon und Marimba verlangen Intervallerkennung trotz verschiedener Ausklänge."
+    "title": "Nachbarn auf den Tasten",
+    "description": "Melodische Intervalle wechseln zwischen aufsteigenden und absteigenden Tönen; harmonische Intervalle kommen nicht vor."
   },
   "93": {
+    "title": "Rohrblattklänge aus der Nähe",
+    "description": "Vergleiche sechs benachbarte harmonische Intervalle auf vertrauter Oboe und Klarinette."
+  },
+  "94": {
+    "title": "Metall und Holz",
+    "description": "Übertrage eng benachbarte größere Intervalle, Nonen und Dezimen auf vertraute Celesta, Vibrafon und Marimba in beiden melodischen Richtungen."
+  },
+  "95": {
     "title": "Sekundensprint der Streicher",
     "description": "Schnelle gestrichene und gezupfte Saiten konzentrieren sich auf kleine absteigende Intervalle."
   },
-  "94": {
-    "title": "Jenseits der Oktave",
-    "description": "Lerne die kleine Dezime im Vergleich zur reinen Quinte auf langsam gespieltem Klavier kennen – mit nur zwei Antworten."
-  },
-  "95": {
-    "title": "Die Rückkehr des tiefen Blechs",
-    "description": "Zwei konsonante Tubazweiklänge entlasten nach den Intervallen über eine Oktave hinaus."
-  },
   "96": {
-    "title": "Weite Flötenwege",
-    "description": "Lerne die große Dezime im Vergleich zur reinen Quinte auf langsam gespielter Flöte kennen – mit zwei klaren Antworten."
+    "title": "Ein Labyrinth tiefer Zweiklänge",
+    "description": "Sechs enge gleichzeitige Intervalle in tiefem Klavier und Cello verlangen geduldiges Hinhören."
   },
   "97": {
-    "title": "Kammermusik an der Kreuzung",
-    "description": "Fünf vertraute Kammermusikfarben decken alle einfachen Intervalle außer der Prime und wechselnde Wiedergabearten ab."
+    "title": "Die Rückkehr des tiefen Blechs",
+    "description": "Übertrage vier benachbarte harmonische Intervalle in langsamem Tempo auf tiefe Tuba."
   },
   "98": {
-    "title": "Das letzte schnelle Paar",
-    "description": "Die kleine Auswahl verbirgt einen feinen Tritonus-Quinte-Vergleich unter schnellen Wiedergabewechseln."
+    "title": "Quer über die Klaviatur",
+    "description": "Melodische Intervalle wechseln zwischen aufsteigenden und absteigenden Tönen; harmonische Intervalle kommen nicht vor."
   },
   "99": {
-    "title": "Ein ruhiger Atemzug",
-    "description": "Vertraute Terzen, Quinte und Oktave kehren für ein bewusst ruhiges vorletztes Level zurück."
+    "title": "Kammermusik an der Kreuzung",
+    "description": "Verbinde einfache Intervalle und alle vier Nonen und Dezimen auf fünf Instrumenten mit sechs nahe beieinanderliegenden Antworten."
   },
   "100": {
     "title": "Das Listn-Finale",
-    "description": "Alle einfachen Intervalle außer der Prime, fünf Klangfarben, alle Wiedergabearten und sechs Antworten vereinen das Gelernte; erweiterte Intervalle bleiben eine eigene Aufgabe."
+    "description": "Meistere einfache Intervalle und alle vier Nonen und Dezimen auf fünf Instrumenten in schnellem Tempo mit sechs nahe beieinanderliegenden Antworten."
   }
 }

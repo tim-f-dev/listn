@@ -1,0 +1,12 @@
+Tool: built-in image_gen (not CLI).
+Reference image: assets/icon.png (existing Listn brand identity).
+Final export: google-play-feature-de-1024x500.png; 1024 x 500, RGB PNG without alpha, sRGB. Center-cropped to the requested aspect ratio and downsampled from the generated original.
+
+Generation prompt:
+Use case: ads-marketing. Create a polished Google Play feature graphic for Listn, a musical ear-training app. This is a wide landscape banner, exact target aspect ratio 1024:500 (2.048:1), ideally output 2048x1000 or 1024x500. Reference image is the existing Listn brand icon: use its warm paper/ink palette and clean ascending musical-note aesthetic; do not simply enlarge or repeat the app icon. Editorial sheet-music/studio design, restrained and exceptionally legible. Warm parchment background #F3E7CF with very subtle paper texture, dark brown ink #382B23, rust accent #A64E32, muted staff-line color #CBB99B. Composition: spacious typographic block centered-left, elegant large serif app name 'Listn', and the exact German tagline 'Hör den Unterschied.' below, with a small supporting line 'Dein Gehörtrainer'. On right, a tasteful original arrangement of two separate musical notes on five fine staff lines, evoking comparing two pitches, with a restrained rust listening ripple. Editorial vector-like geometry, beautiful negative space, premium music-book aesthetic, no photographed objects. Maintain wide safe margins: all essential content in central 80% of width and central 70% height. Exact text only: 'Listn', 'Hör den Unterschied.', 'Dein Gehörtrainer'. No extra text, no phones or device frames, no interface mockup, no ratings or stars or awards, no badges, no store logos, no claims, no outer border, no large square app-icon tile. Strong balanced professional composition, readable at thumbnail size.
+
+Suggested alt text:
+Listn – Hör den Unterschied. Dein Gehörtrainer, mit zwei Noten auf warmem Papierhintergrund.
+
+Requirements reference:
+https://support.google.com/googleplay/android-developer/answer/9866151

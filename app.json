@@ -2,7 +2,7 @@
   "expo": {
     "name": "Listn",
     "slug": "listn",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -19,7 +19,7 @@
     "android": {
       "package": "app.listn.mobile",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FFF8E9",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -55,7 +55,8 @@
           "supportsRTL": false,
           "forcesRTL": false
         }
-      ]
+      ],
+      "expo-status-bar"
     ],
     "platforms": [
       "android",
@@ -74,7 +75,7 @@
       "supportsRTL": false,
       "forcesRTL": false,
       "eas": {
-        "projectId": "6258989a-ef42-4979-820d-2269733869c0"
+        "projectId": "541b44e2-016a-4574-8a96-af84cc42aceb"
       }
     }
   }

@@ -18,11 +18,16 @@ for (const level of levels) {
   const seen = new Set<number>(); const history: number[] = [];
   for (let i = 0; i < 300; i++) {
     const q = createQuestion(level, history, rng);
+    assert.equal(q.playback === 'harmonic', level.playback === 'harmonic', `Mixed harmonic/melodic playback in level ${level.id}`);
     if (level.id > 20) {
       assert.notEqual(q.interval, 0, `Unison question in level ${level.id}`);
       assert.ok(!q.choices.includes(0), `Unison answer in level ${level.id}`);
     }
     assert.equal(q.choices.length, level.choices);
+    if (level.id > 20) {
+      const nearest = Math.min(...level.intervals.filter((n) => n !== q.interval).map((n) => Math.abs(n - q.interval)));
+      assert.ok(q.choices.some((n) => Math.abs(n - q.interval) === nearest), `Missing nearest distractor in ${level.id}`);
+    }
     assert.equal(new Set(q.choices).size, level.choices);
     assert.equal(q.choices.filter((n) => n === q.interval).length, 1);
     assert.equal(semitoneDistance(...q.notes), q.interval);

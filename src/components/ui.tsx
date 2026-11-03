@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useGame } from '../game/context';
 import { useTranslation } from 'react-i18next';
 import { useScreenLayout } from './useLayout';
+import Icon, { type IconName } from './Icon';
 
 import { colors, fonts } from './theme';
 export { colors, fonts } from './theme';
@@ -19,25 +20,28 @@ export const ui = StyleSheet.create({
   row: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 12 },
   button: { minHeight: 44, borderRadius: 16, paddingVertical: 10, paddingHorizontal: 16, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.primary },
   buttonText: { color: colors.onPrimary, fontWeight: '700', fontSize: 16, textAlign: 'center' },
-  secondary: { backgroundColor: colors.pale },
+  secondary: { backgroundColor: colors.canvas },
   disabled: { opacity: 0.45 },
-  track: { height: 8, borderRadius: 5, backgroundColor: colors.pale, overflow: 'hidden' },
+  track: { height: 8, borderRadius: 5, backgroundColor: colors.canvas, overflow: 'hidden' },
   fill: { height: '100%', backgroundColor: colors.primary, borderRadius: 5 },
-  warning: { padding: 16, backgroundColor: colors.amber, borderRadius: 16, gap: 12 },
+  warning: { padding: 16, backgroundColor: colors.canvas, borderRadius: 16, gap: 12 },
 });
-export function Button({ children, onPress, disabled, secondary, label, large }: {
-  children: ReactNode; onPress(): void; disabled?: boolean; secondary?: boolean; label?: string; large?: boolean;
+export function Button({ children, onPress, disabled, secondary, label, large, icon, leadingIcon }: {
+  children?: ReactNode; onPress(): void; disabled?: boolean; secondary?: boolean; label?: string; large?: boolean; icon?: ReactNode; leadingIcon?: IconName;
 }) {
   return <Pressable accessibilityRole="button" accessibilityLabel={label} accessibilityState={{ disabled: !!disabled }}
     disabled={disabled} onPress={onPress} style={({ pressed }) => [ui.button, large && { minHeight: 60, paddingVertical: 16 }, secondary && ui.secondary, disabled && ui.disabled, pressed && { opacity: 0.75 }]}>
-    <Text style={[ui.buttonText, large && { fontSize: 18 }, secondary && { color: colors.ink }]}>{children}</Text>
+    {icon ?? <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8, flexShrink: 1 }}>
+      {leadingIcon && <Icon name={leadingIcon} size={20} color={secondary ? colors.ink : colors.onPrimary} />}
+      <Text style={[ui.buttonText, { flexShrink: 1 }, large && { fontSize: 18 }, secondary && { color: colors.ink }]}>{children}</Text>
+    </View>}
   </Pressable>;
 }
-export function Stars({ count, large = false }: { count: number; large?: boolean }) {
+export function Stars({ count, large = false, size = large ? 44 : 17, color = colors.gold, decorative = false }: { count: number; large?: boolean; size?: number; color?: string; decorative?: boolean }) {
   const { t } = useTranslation();
-  return <Text accessibilityLabel={t('common.starRating', { stars: t('common.starCount', { count }), max: 3 })} style={{ color: colors.gold, fontSize: large ? 44 : 17, letterSpacing: 3 }}>
-    {'★'.repeat(count)}{'☆'.repeat(3 - count)}
-  </Text>;
+  return <View accessible={!decorative} accessibilityLabel={decorative ? undefined : t('common.starRating', { stars: t('common.starCount', { count }), max: 3 })} style={{ flexDirection: 'row', gap: large ? 3 : 1 }}>
+    {[0, 1, 2].map((index) => <Icon key={index} name={index < count ? 'starFilled' : 'star'} size={size} color={color} />)}
+  </View>;
 }
 export function Page({ children, header, footer, compact = false }: {
   children: ReactNode; header?: ReactNode; footer?: ReactNode; compact?: boolean;

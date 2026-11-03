@@ -23,6 +23,14 @@ The matching distribution's license identifies this older bank as MuseScore_Gene
 
 Credits include Frank Wen (FluidR3), Michael Cowgill (FluidR3Mono), S. Christian Collins (MuseScore adaptation), Ethan Winer (Temple Blocks), Michael Schorsch (Drumline Cymbals), and the original Fluid contributors listed in the preserved notice.
 
+## Phosphor Icons
+
+Interface icons use Phosphor Icons (Regular, plus Fill for earned stars),
+from https://github.com/phosphor-icons/core. Copyright (c) 2023 Phosphor Icons.
+The complete MIT license is preserved in `licenses/Phosphor.txt` and displayed
+in the app's Credits screen. Selected original SVGs and transparent PNG exports
+are bundled in `assets/icons/phosphor/`; `source-commit.txt` records the source revision.
+
 ## Build-time tools
 
 - FluidSynth 2.6.1: https://github.com/FluidSynth/fluidsynth/releases/tag/v2.6.1 — LGPL-2.1-or-later; used offline, not linked into or distributed with the application.

@@ -15,7 +15,7 @@
     "previousFacts": "Previous facts",
     "nextFacts": "More facts",
     "format": "{{questions}} questions · {{choices}} answers per question · {{duration}} ms notes",
-    "mixed": "Ascending, descending & together",
+    "mixed": "Melodic: ascending & descending",
     "slow": "Slow",
     "normal": "Normal speed",
     "fast": "Fast"
@@ -28,13 +28,13 @@
     "retry": "Retry"
   },
   "nav": {
-    "menu": "☰ Menu",
+    "menu": "Menu",
     "resume": "Resume game",
-    "home": "← Home",
+    "home": "Home",
     "map": "Level map",
-    "mapBack": "← Level map",
-    "back": "← Back",
-    "restart": "↻ Restart level",
+    "mapBack": "Level map",
+    "back": "Back",
+    "restart": "Restart level",
     "restartLabel": "Restart level"
   },
   "common": {
@@ -50,6 +50,7 @@
     "levelLabel": "Level {{id}}, {{title}}, {{status}}"
   },
   "home": {
+    "subtitle": "Your ear trainer",
     "eyebrow": "An ear for the everyday",
     "totalStars": "{{count}} / 300 stars",
     "tagline": "Two notes. A little attention.\nA whole new way to listen.",
@@ -89,8 +90,8 @@
     "next": "Next question →",
     "results": "See results →",
     "listening": "Listening…",
-    "replay": "↻ Replay interval",
-    "harmonic": "Two notes together",
+    "replay": "Replay interval",
+    "harmonic": "Harmonic intervals",
     "ascending": "Ascending notes",
     "descending": "Descending notes",
     "tracker": "Question {{number}}: {{status}}",
@@ -125,6 +126,7 @@
     "fallback_other": "{{count}}-semitone interval"
   },
   "results": {
+    "highScore": "Your high score: {{score}}/10",
     "empty": "Choose a level to begin.",
     "perfect": "Perfect listening.",
     "good": "Nicely heard.",
@@ -160,8 +162,9 @@
     "description": "128 General MIDI programs, rendered from the officially distributed MS Basic SoundFont with FluidSynth. Instrument samples are bundled for offline playback. Some GM programs are sound effects, so interval lessons use pitched instruments only.",
     "originalNotice": "Original license and attribution notice (preserved in English):",
     "page": "Page {{current}} of {{total}}",
-    "previous": "← Previous",
-    "next": "Next →"
+    "previous": "Previous",
+    "next": "Next →",
+    "icons": "Icons: Phosphor Icons · MIT license"
   },
   "legalPages": {
     "updated": "Last updated: 27 October 2026",
@@ -208,21 +211,31 @@
     }
   },
   "packs": {
+    "starsNeeded": "{{required}} stars needed",
     "title": "Levels",
     "pack": "Level pack {{id}}",
-    "back": "← Level packs",
-    "backToPack": "← Back to pack",
+    "back": "Level packs",
+    "backToPack": "Back to pack",
     "instructions": "Choose a pack. Stars earned anywhere in the game unlock more packs.",
     "levelInstructions": "Earn one star to unlock the next level.",
-    "stars": "★ {{count}} / 60 stars",
+    "stars": "{{count}} / 60 stars",
     "range": "Levels {{first}}–{{last}}",
     "locked": "Locked · {{required}} total stars required ({{earned}}/{{required}}).",
-    "label": "Level pack {{id}}, {{status}}",
+    "label": "Level pack {{id}}, {{name}}, {{status}}",
     "unavailable": "This level pack does not exist.",
-    "counter": "{{earned}}/{{required}} ★"
+    "counter": "{{earned}}/{{required}}",
+    "names": {
+      "1": "First Notes",
+      "2": "Sharper Ears",
+      "3": "No Easy Notes",
+      "4": "Listning Challenge",
+      "5": "Beyond the Octave"
+    }
   },
   "options": {
-    "title": "Options"
+    "title": "Options",
+    "allLevelsUnlocked": "Mode: All levels unlocked",
+    "normalMode": "Mode: Normal progression"
   },
   "tutorial": {
     "title": "How to play",
@@ -230,5 +243,45 @@
     "start": "Start level",
     "saving": "Saving…",
     "saveError": "Your preference could not be saved. Try again, or uncheck the box to continue without saving."
+  },
+  "inGameMenu": {
+    "levels": "Levels",
+    "restart": "Restart",
+    "home": "Home",
+    "resume": "Resume",
+    "confirmTitle": "Are you sure?",
+    "yes": "Confirm",
+    "cancel": "Cancel",
+    "confirm": {
+      "levels": "Return to the level pack?",
+      "restart": "Restart this level?",
+      "home": "Return to the home screen?"
+    }
+  },
+  "specialties": {
+    "ascending": "Ascending notes",
+    "descending": "Descending notes",
+    "harmonic": "Harmonic intervals",
+    "choices2": "2 answer choices",
+    "choices4": "4 answer choices",
+    "choices6": "6 answer choices",
+    "slow": "Slow playback",
+    "fast": "Fast playback",
+    "changingInstruments": "Changing instruments between questions",
+    "compound": "Intervals beyond the octave",
+    "neighboring": "Intervals only a semitone apart",
+    "low": "Low register",
+    "high": "High register",
+    "wideRegister": "Root notes span two octaves or more",
+    "rareInstrument": "Uncommon instrument: {{instruments}}",
+    "melodic": "Melodic intervals: ascending and descending"
+  },
+  "harmonicTutorial": {
+    "title": "Harmonic intervals",
+    "body": "Both notes now sound at the same time. Listen for the distance between them and choose the interval.",
+    "replay": "Replay as often as you like.",
+    "start": "Let’s listen",
+    "saveError": "Could not save that you have seen this tutorial. Try again or continue without saving.",
+    "continue": "Continue without saving"
   }
 }

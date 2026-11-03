@@ -27,7 +27,7 @@ export function validateLevel(level: LevelConfig): string[] {
   if (level.questionCount !== 10) errors.push('Every level needs ten questions');
   if (![2, 4, 6].includes(level.choices)) errors.push('Invalid answer count');
   if (new Set(level.intervals).size !== level.intervals.length || level.intervals.length < level.choices) errors.push('Insufficient or duplicate intervals');
-  if (!['harmonic', 'ascending', 'descending', 'mixed'].includes(level.playback)) errors.push('Invalid playback');
+  if (!['harmonic', 'ascending', 'descending', 'melodic'].includes(level.playback)) errors.push('Invalid playback');
   if (!['slow', 'normal', 'fast'].includes(level.speed)) errors.push('Invalid speed');
   if (!Number.isFinite(level.noteDurationMs) || level.noteDurationMs < 180 || level.noteDurationMs > 1200) errors.push('Invalid duration');
   if (![level.minMidiNote, level.maxMidiNote].every(Number.isInteger) || level.minMidiNote > level.maxMidiNote) errors.push('Invalid root range');
@@ -53,15 +53,41 @@ export function createQuestion(level: LevelConfig, history: readonly number[] = 
   const repeated = history.length >= 2 && last === history.at(-2);
   let candidates = level.intervals.filter((n) => !(n === last && (repeated || level.intervals.length > 2)));
   if (!candidates.length) candidates = [...level.intervals];
+  // Cover the vocabulary before repeating it within a run. Binary lessons retain
+  // their less predictable repetition rule above.
+  const runHistory = history.slice(history.length - history.length % level.questionCount);
+  if (level.intervals.length > 2) {
+    const compounds = level.intervals.filter((n) => n > 12);
+    const simpleCount = level.intervals.length - compounds.length;
+    if (level.intervals.length > level.questionCount && compounds.length > 0 && compounds.length <= level.questionCount
+      && simpleCount >= level.questionCount - compounds.length && runHistory.length) {
+      const missingCompounds = level.intervals.filter((n) => n > 12 && !runHistory.includes(n));
+      const remaining = level.questionCount - runHistory.length;
+      candidates = missingCompounds.length && rng() < missingCompounds.length / remaining
+        ? missingCompounds
+        : candidates.filter((n) => n <= 12);
+    }
+    const count = (n: number) => runHistory.filter((previous) => previous === n).length;
+    const leastPlayed = Math.min(...candidates.map(count));
+    candidates = candidates.filter((n) => count(n) === leastPlayed);
+  }
   const interval = candidates[index(candidates.length, rng)];
   const program = level.instruments[index(level.instruments.length, rng)];
   const root = level.minMidiNote + index(level.maxMidiNote - level.minMidiNote + 1, rng);
-  const modes = ['harmonic', 'ascending', 'descending'] as const;
-  const playback = level.playback === 'mixed' ? modes[index(modes.length, rng)] : level.playback;
-  const distractors = shuffled(level.intervals.filter((n) => n !== interval), rng).slice(0, level.choices - 1);
+  const modes = ['ascending', 'descending'] as const;
+  const playback = level.playback === 'melodic' ? modes[index(modes.length, rng)] : level.playback;
+  const pool = [...level.intervals].sort((a, b) => a - b);
+  // A compact answer set is shared by all its possible targets. No remote
+  // filler is included only because a different option happens to be correct.
+  const answerSets = pool.slice(0, pool.length - level.choices + 1)
+    .map((_, start) => pool.slice(start, start + level.choices))
+    .filter((choices) => choices.includes(interval));
+  const choices = level.id > 20
+    ? answerSets[index(answerSets.length, rng)]
+    : [interval, ...shuffled(pool.filter((n) => n !== interval), rng).slice(0, level.choices - 1)].sort((a, b) => a - b);
   return Object.freeze({ interval, root, program, playback,
     notes: Object.freeze(notesFor(root, interval, playback)),
-    choices: Object.freeze([interval, ...distractors].sort((a, b) => a - b)),
+    choices: Object.freeze(choices),
   });
 }
 

@@ -15,7 +15,7 @@
     "previousFacts": "Vorherige Infos",
     "nextFacts": "Weitere Infos",
     "format": "{{questions}} Fragen · {{choices}} Antworten pro Frage · {{duration}} ms pro Ton",
-    "mixed": "Aufwärts, abwärts & gleichzeitig",
+    "mixed": "Melodisch: aufwärts & abwärts",
     "slow": "Langsam",
     "normal": "Normales Tempo",
     "fast": "Schnell"
@@ -28,13 +28,13 @@
     "retry": "Erneut versuchen"
   },
   "nav": {
-    "menu": "☰ Menü",
+    "menu": "Menü",
     "resume": "Weiter spielen",
-    "home": "← Startseite",
+    "home": "Startseite",
     "map": "Levelübersicht",
-    "mapBack": "← Übersicht",
-    "back": "← Zurück",
-    "restart": "↻ Neu starten",
+    "mapBack": "Übersicht",
+    "back": "Zurück",
+    "restart": "Neu starten",
     "restartLabel": "Level neu starten"
   },
   "common": {
@@ -50,6 +50,7 @@
     "levelLabel": "Level {{id}}, {{title}}, {{status}}"
   },
   "home": {
+    "subtitle": "Dein Gehörtrainer",
     "eyebrow": "Mit offenen Ohren durchs Leben",
     "totalStars": "{{count}} / 300 Sterne",
     "tagline": "Zwei Töne. Ein Moment Aufmerksamkeit.\nEine neue Art zu hören.",
@@ -89,8 +90,8 @@
     "next": "Nächste Frage →",
     "results": "Zum Ergebnis →",
     "listening": "Wird abgespielt…",
-    "replay": "↻ Intervall wiederholen",
-    "harmonic": "Zwei Töne gleichzeitig",
+    "replay": "Intervall wiederholen",
+    "harmonic": "Harmonische Intervalle",
     "ascending": "Aufsteigende Töne",
     "descending": "Absteigende Töne",
     "tracker": "Frage {{number}}: {{status}}",
@@ -125,6 +126,7 @@
     "fallback_other": "Intervall von {{count}} Halbtonschritten"
   },
   "results": {
+    "highScore": "Dein Highscore: {{score}}/10",
     "empty": "Wähle ein Level, um loszulegen.",
     "perfect": "Perfekt gehört!",
     "good": "Gut gehört!",
@@ -160,8 +162,9 @@
     "description": "128 General-MIDI-Programme, mit FluidSynth aus dem offiziell bereitgestellten MS-Basic-SoundFont erzeugt. Die Instrumentenklänge sind für die Offline-Wiedergabe enthalten. Einige GM-Programme sind Geräuscheffekte; die Intervallübungen verwenden deshalb nur Instrumente mit klarer Tonhöhe.",
     "originalNotice": "Originaler Lizenz- und Quellenhinweis (aus rechtlichen Gründen unverändert auf Englisch):",
     "page": "Seite {{current}} von {{total}}",
-    "previous": "← Zurück",
-    "next": "Weiter →"
+    "previous": "Zurück",
+    "next": "Weiter →",
+    "icons": "Icons: Phosphor Icons · MIT-Lizenz"
   },
   "legalPages": {
     "updated": "Stand: 27. Oktober 2026",
@@ -208,21 +211,31 @@
     }
   },
   "packs": {
+    "starsNeeded": "{{required}} Sterne nötig",
     "title": "Level",
     "pack": "Levelpaket {{id}}",
-    "back": "← Levelpakete",
-    "backToPack": "← Zurück zum Paket",
+    "back": "Levelpakete",
+    "backToPack": "Zurück zum Paket",
     "instructions": "Wähle ein Paket. Sterne aus dem gesamten Spiel schalten weitere Pakete frei.",
     "levelInstructions": "Mit einem Stern schaltest du das nächste Level frei.",
-    "stars": "★ {{count}} / 60 Sterne",
+    "stars": "{{count}} / 60 Sterne",
     "range": "Level {{first}}–{{last}}",
     "locked": "Gesperrt · Insgesamt {{required}} Sterne benötigt ({{earned}}/{{required}}).",
-    "label": "Levelpaket {{id}}, {{status}}",
+    "label": "Levelpaket {{id}}, {{name}}, {{status}}",
     "unavailable": "Dieses Levelpaket gibt es nicht.",
-    "counter": "{{earned}}/{{required}} ★"
+    "counter": "{{earned}}/{{required}}",
+    "names": {
+      "1": "Erste Töne",
+      "2": "Geschärftes Gehör",
+      "3": "Kein leichter Ton",
+      "4": "Hörausforderung",
+      "5": "Über der Oktave"
+    }
   },
   "options": {
-    "title": "Optionen"
+    "title": "Optionen",
+    "allLevelsUnlocked": "Modus: Alle Level freigeschaltet",
+    "normalMode": "Modus: Normaler Fortschritt"
   },
   "tutorial": {
     "title": "So funktioniert’s",
@@ -230,5 +243,45 @@
     "start": "Level starten",
     "saving": "Wird gespeichert…",
     "saveError": "Deine Einstellung konnte nicht gespeichert werden. Versuche es erneut oder entferne das Häkchen, um ohne Speichern fortzufahren."
+  },
+  "inGameMenu": {
+    "levels": "Level",
+    "restart": "Neustart",
+    "home": "Startseite",
+    "resume": "Weiter",
+    "confirmTitle": "Bist du sicher?",
+    "yes": "Bestätigen",
+    "cancel": "Abbrechen",
+    "confirm": {
+      "levels": "Zurück zum Levelpaket?",
+      "restart": "Dieses Level neu starten?",
+      "home": "Zurück zur Startseite?"
+    }
+  },
+  "specialties": {
+    "ascending": "Aufsteigende Töne",
+    "descending": "Absteigende Töne",
+    "harmonic": "Harmonische Intervalle",
+    "choices2": "2 Antwortmöglichkeiten",
+    "choices4": "4 Antwortmöglichkeiten",
+    "choices6": "6 Antwortmöglichkeiten",
+    "slow": "Langsame Wiedergabe",
+    "fast": "Schnelle Wiedergabe",
+    "changingInstruments": "Wechselnde Instrumente zwischen den Fragen",
+    "compound": "Intervalle über eine Oktave hinaus",
+    "neighboring": "Intervalle mit nur einem Halbton Unterschied",
+    "low": "Tiefe Tonlage",
+    "high": "Hohe Tonlage",
+    "wideRegister": "Grundtöne über mindestens zwei Oktaven verteilt",
+    "rareInstrument": "Seltenes Instrument: {{instruments}}",
+    "melodic": "Melodische Intervalle: aufsteigend und absteigend"
+  },
+  "harmonicTutorial": {
+    "title": "Harmonische Intervalle",
+    "body": "Beide Töne erklingen jetzt gleichzeitig. Höre auf den Abstand zwischen ihnen und wähle das Intervall.",
+    "replay": "Du kannst sie beliebig oft wiederholen.",
+    "start": "Los geht’s",
+    "saveError": "Es konnte nicht gespeichert werden, dass du dieses Tutorial gesehen hast. Versuche es erneut oder fahre ohne Speichern fort.",
+    "continue": "Ohne Speichern weiter"
   }
 }

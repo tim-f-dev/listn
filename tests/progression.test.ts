@@ -24,20 +24,25 @@ test('larger neighboring intervals wait until pack three; first fifty avoid spee
   }
   const small = new Set(levels.slice(20, 40).flatMap((level) => [...level.intervals]));
   for (let n = 1; n <= 5; n++) assert.ok(small.has(n));
-  for (const pair of [[6, 7], [8, 9], [10, 11]]) assert.ok(levels.slice(40, 50).some((level) => level.choices === 2 && pair.every((n) => level.intervals.includes(n)) && level.speed === 'slow'));
+  for (const interval of [6, 9, 10, 11]) {
+    const introduction = levels.find((level) => level.intervals.includes(interval));
+    assert.ok(introduction);
+    assert.ok(introduction.choices <= 4);
+    assert.equal(introduction.speed, 'slow');
+  }
 });
 
-test('gentle final-pack ninths and tenths have valid audio and translated names', () => {
+test('neighboring final-pack ninths and tenths have valid audio and translated names', () => {
   const localization = createLocalization();
   for (const interval of [13, 14, 15, 16]) {
     assert.ok(!levels.slice(0, 80).some((level) => level.intervals.includes(interval)));
     const level = levels.slice(80).find((level) => level.intervals.includes(interval));
     assert.ok(level);
-    assert.equal(level.choices, 2);
+    assert.equal(level.choices, interval === 13 ? 2 : 4);
     assert.equal(level.speed, 'slow');
     assert.equal(level.playback, 'ascending');
     assert.deepEqual(validateLevel(level), []);
-    assert.ok(Math.abs(level.intervals[0] - level.intervals[1]) >= 5);
+    assert.ok(level.intervals.filter((n) => n !== interval).every((n) => Math.abs(n - interval) >= 2));
     const offset = level.intervals.indexOf(interval);
     let first = true;
     const q = createQuestion(level, [], () => first ? (first = false, (offset + 0.5) / level.intervals.length) : 0.5);

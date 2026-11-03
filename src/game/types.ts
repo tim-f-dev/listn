@@ -6,7 +6,7 @@ export type LevelConfig = Readonly<{
   instruments: readonly number[]; // Zero-based General MIDI programs.
   intervals: readonly number[];
   choices: 2 | 4 | 6;
-  playback: Playback | 'mixed';
+  playback: Playback | 'melodic';
   speed: Speed;
   minMidiNote: number; // Range of the lower/root note, even for descending intervals.
   maxMidiNote: number;

@@ -6,7 +6,7 @@ import { deriveProgress, parseProgress, ProgressStore, recordResult, starsFor, t
 import type { LevelConfig } from '../src/game/types';
 
 const level: LevelConfig = { id: 1, title: 'Test', instruments: [0, 24], intervals: [0, 2, 4, 5, 7, 12], choices: 4,
-  playback: 'mixed', speed: 'normal', minMidiNote: 60, maxMidiNote: 72, noteDurationMs: 700,
+  playback: 'melodic', speed: 'normal', minMidiNote: 60, maxMidiNote: 72, noteDurationMs: 700,
   questionCount: 10, difficulty: 'steady', challenge: 'Test fixture' };
 export function seeded(seed = 42) {
   let state = seed;
@@ -35,7 +35,7 @@ test('random questions cover all modes, roots, instruments, intervals and positi
     seen.add(q.interval); modes.add(q.playback); roots.add(q.root); programs.add(q.program);
     positions.add(q.choices.indexOf(q.interval)); history.push(q.interval);
   }
-  assert.equal(seen.size, 6); assert.equal(modes.size, 3); assert.equal(roots.size, 13);
+  assert.equal(seen.size, 6); assert.equal(modes.size, 2); assert.equal(roots.size, 13);
   assert.equal(programs.size, 2); assert.equal(positions.size, 4);
 });
 test('all answer counts are unique; invalid ranges and pools fail', () => {
@@ -43,6 +43,28 @@ test('all answer counts are unique; invalid ranges and pools fail', () => {
   assert.ok(validateLevel({ ...level, choices: 6, intervals: [0, 12] }).length);
   assert.ok(validateLevel({ ...level, maxMidiNote: 100 }).length);
   assert.throws(() => createQuestion({ ...level, instruments: [999] }));
+});
+
+test('compact answer sets retain close competition and every displayed option can be correct', () => {
+  const rng = seeded(123);
+  const candidates: LevelConfig = { ...level, id: 80, intervals: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] };
+  const sides = new Set<number>();
+  const targetsBySet = new Map<string, Set<number>>();
+  for (let i = 0; i < 10000; i++) {
+    const question = createQuestion(candidates, [], rng);
+    const wrong = question.choices.filter((n) => n !== question.interval);
+    assert.equal(Math.min(...wrong.map((n) => Math.abs(n - question.interval))), 1);
+    const key = question.choices.join(',');
+    if (!targetsBySet.has(key)) targetsBySet.set(key, new Set());
+    targetsBySet.get(key)!.add(question.interval);
+    for (let j = 1; j < question.choices.length; j++) assert.equal(question.choices[j] - question.choices[j - 1], 1);
+    if (question.interval === 6) {
+      if (wrong.includes(5)) sides.add(-1);
+      if (wrong.includes(7)) sides.add(1);
+    }
+  }
+  assert.deepEqual([...sides].sort(), [-1, 1]);
+  for (const [key, targets] of targetsBySet) assert.deepEqual([...targets].sort((a, b) => a - b), key.split(',').map(Number));
 });
 test('two-choice lessons avoid long runs without forcing predictable alternation', () => {
   const rng = seeded(); const history: number[] = []; let repeats = 0;

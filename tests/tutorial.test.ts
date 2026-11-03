@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { TUTORIAL_KEY, TutorialSession, tutorialStage } from '../src/tutorial/session';
+import { HARMONIC_TUTORIAL_KEY, TUTORIAL_KEY, TutorialSession, tutorialStage } from '../src/tutorial/session';
 import { deriveProgress, PROGRESS_KEY, recordResult } from '../src/game/progress';
 import { LANGUAGE_KEY } from '../src/localization/core';
 
@@ -8,6 +8,25 @@ function storage(initial: Record<string, string> = {}) {
   const data = new Map(Object.entries(initial));
   return { data, getItem: async (key: string) => data.get(key) ?? null, setItem: async (key: string, value: string) => { data.set(key, value); } };
 }
+
+test('harmonic introduction has independent hydration and persists without suppressing the general tutorial', async () => {
+  const store = storage({ [LANGUAGE_KEY]: 'de' });
+  const harmonic = new TutorialSession(store, HARMONIC_TUTORIAL_KEY);
+  assert.equal(tutorialStage(harmonic.getSnapshot()), 'loading');
+  await harmonic.initialize();
+  assert.equal(tutorialStage(harmonic.getSnapshot()), 'tutorial');
+  await harmonic.dismiss(true);
+  assert.equal(tutorialStage(harmonic.getSnapshot()), 'play');
+  assert.equal(store.data.get(HARMONIC_TUTORIAL_KEY), 'true');
+  assert.equal(store.data.get(LANGUAGE_KEY), 'de');
+  assert.equal(store.data.has(PROGRESS_KEY), false);
+  const restarted = new TutorialSession(store, HARMONIC_TUTORIAL_KEY);
+  await restarted.initialize();
+  assert.equal(tutorialStage(restarted.getSnapshot()), 'play');
+  const general = new TutorialSession(store);
+  await general.initialize();
+  assert.equal(tutorialStage(general.getSnapshot()), 'tutorial');
+});
 test('the first level waits for preference hydration before allowing playback', async () => {
   let loaded!: (value: string | null) => void;
   const session = new TutorialSession({ getItem: () => new Promise((resolve) => { loaded = resolve; }), setItem: async () => {} });

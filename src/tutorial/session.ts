@@ -1,6 +1,7 @@
 import type { Storage } from '../game/progress';
 
 export const TUTORIAL_KEY = 'listn.tutorial.hidden.v1';
+export const HARMONIC_TUTORIAL_KEY = 'listn.tutorial.harmonic.seen.v1';
 type State = Readonly<{ ready: boolean; seen: boolean; hidden: boolean; saving: boolean; saveError: boolean }>;
 export function tutorialStage(state: State) {
   return !state.ready ? 'loading' : state.seen || state.hidden ? 'play' : 'tutorial';
@@ -11,14 +12,14 @@ export class TutorialSession {
   private state: State = { ready: false, seen: false, hidden: false, saving: false, saveError: false };
   private listeners = new Set<() => void>();
   private loading: Promise<void> | undefined;
-  constructor(private storage: Storage) {}
+  constructor(private storage: Storage, private key = TUTORIAL_KEY) {}
   getSnapshot = () => this.state;
   subscribe = (listener: () => void) => { this.listeners.add(listener); return () => { this.listeners.delete(listener); }; };
   private update(patch: Partial<State>) { this.state = { ...this.state, ...patch }; this.listeners.forEach((listener) => listener()); }
   initialize() {
     this.loading ??= (async () => {
       let hidden = false;
-      try { hidden = await this.storage.getItem(TUTORIAL_KEY) === 'true'; } catch { /* Default to showing the instructions. */ }
+      try { hidden = await this.storage.getItem(this.key) === 'true'; } catch { /* Default to showing the instructions. */ }
       this.update({ ready: true, hidden });
     })();
     return this.loading;
@@ -27,7 +28,7 @@ export class TutorialSession {
     if (!this.state.ready || this.state.saving || this.state.seen) return;
     if (dontShowAgain) {
       this.update({ saving: true, saveError: false });
-      try { await this.storage.setItem(TUTORIAL_KEY, 'true'); }
+      try { await this.storage.setItem(this.key, 'true'); }
       catch { this.update({ saving: false, saveError: true }); return; }
     }
     this.update({ seen: true, hidden: dontShowAgain || this.state.hidden, saving: false, saveError: false });
