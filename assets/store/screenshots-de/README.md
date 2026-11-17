@@ -1,5 +1,7 @@
 # German phone store screenshots
 
+**Content status, 2026-11-10:** These captures predate the Blasorchester curriculum and renamed lessons. Level-detail/exercise images and the existing ZIP/contact sheet are historical; capture fresh native Android screenshots before using them for the revised release. Original captures are preserved here.
+
 Four RGB PNG exports, 1080 x 1920 pixels (9:16), each below 8 MB:
 
 1. 01-startseite.png — home

@@ -1,12 +1,12 @@
 # Listn chat handoff
 
-Updated: 2026-11-03 (Europe/Berlin). This is the consolidated current handoff, replacing the contradictory chronological notes previously in this file. Verify the repository before continuing; other chats/user actions can change it.
+Updated: 2026-11-10 (Europe/Berlin). This is the consolidated current handoff, replacing the contradictory chronological notes previously in this file. Verify the repository before continuing; other chats/user actions can change it.
 
 ## Current repository and working rules
 
 - Workspace in this session: `D:\!programmierung\quizzler\listn`. Paths vary by machine; use the active workspace.
-- Latest observed commit: `3e4201d` — `massive changed, new release`. The main branding/UI/curriculum implementation and SDK updates are now committed. Do not keep claiming all previous work is uncommitted.
-- At this handoff, pending changes include CHAT_CONTEXT.md, PACKAGING_REVIEW.md, package.json and package-lock.json, plus the untracked DE/EN release-notes file. Recheck `git status` before acting. Do not automatically commit, push, build remotely, publish, deploy or discard unrelated work.
+- Latest observed commit: `1791083` — `mild changes`. The main branding/UI/curriculum implementation and SDK updates are now committed. Do not keep claiming all previous work is uncommitted.
+- Pending local work includes the Blasorchester curriculum, bilingual copy, archive, audit/tests/docs and the prior native-audio cleanup fix/KNOWN_BUGS.md. Recheck `git status`. No commit, push, native build, publication or deployment was done for this rework.
 - App: Listn, formerly Intervalify; GitHub `https://github.com/tim-f-dev/listn`; Android package `app.listn.mobile`; website remains `https://intervalify.app/` intentionally.
 - Configured version is **1.1.0** in app.json, package.json and both root package-lock.json version entries. User requested “1.1”; use full semantic version 1.1.0.
 - npm project with package-lock.json. Follow AGENTS.md: read matching versioned Expo docs before touching Expo/RN APIs; use `npx expo install` for app dependencies; keep generated ios/android directories untouched. Run lint and typecheck before declaring a task done.
@@ -68,25 +68,30 @@ Additional explicit requirements:
 
 - Beyond level 20, two-choice lessons should be **very rare**.
 - First introduction of a new instrument or interval must be rather easy, never buried in a massive-demand task. Check first appearances in both target pools and possible answer options.
-- Prefer moving existing lessons over inventing new ones, to preserve names. All 100 English/German names and each lesson's instrument set were preserved through the completed rebalances.
+- Prefer moving existing lessons over inventing new ones, to preserve names. The 2026-11-10 rework explicitly replaces all 100 English/German names and instrument sets; earlier name-preservation rules are superseded by that user request.
 - Recovery should normally ease timing/presentation while retaining useful discrimination. Supported introductions deliberately use wider comparisons; they are valid exceptions to dense review pools.
 
 ## Current curriculum and question generation
 
-- 100 individually authored levels, five packs of 20, ten questions per level. Source: `src/game/levels.ts`; generated documentation: `LEVEL_DESIGN.md`.
-- Pack names are intentional: First Notes / Erste Töne; Sharper Ears / Geschärftes Gehör; No Easy Notes / Kein leichter Ton; **Listning Challenge** / Hörausforderung; Beyond the Octave / **Über der Oktave**. Do not correct Listning to Listening.
-- Unison is exclusive to pack 1: it must not be a target or answer after level 20. Pack 1 keeps every candidate pair at least two semitones apart. Larger neighboring comparisons wait until pack 3. First 50 levels avoid fast playback and six answers.
-- Only **24, 25, 41, 82** have two choices after level 20. They introduce minor second, minor third, tritone and minor ninth. The former eleven-lesson binary block was removed.
-- Introductions use slow, sustained notes (1100 ms), at most four choices, roots spanning at most five semitones and fixed presentation. New instruments always get spaced familiar candidates. The minor/major-third pair at 25 is the focused binary exception to spaced new-interval introductions. Regression tests derive introductions from preceding configurations and enforce this policy.
-- Ninths/tenths are introduced slowly at 82–85 with supported spaced alternatives. **86 One quiet breath** consolidates close compounds; 94 transfers them across familiar instruments; 99–100 integrate simple intervals and compounds. **97 is Low brass return**.
-- **96 is Low harmonic labyrinth**, not the older Compound air configuration. Compound air is now 85. Sevenths falling is 45 and actually descends.
-- `src/game/questions.ts`: from pack 2 onward, displayed answers are consecutive windows in the sorted eligible interval pool. Dense review pools produce compact plausible alternatives; introduction pools intentionally remain wider. Every displayed option can be a possible target of that answer set.
-- The intermediate target-only nearest-distractor rule was removed: it created options that could be eliminated from the answer layout. Do not restore it. One nearest answer alone also failed to ensure several plausible close competitors.
-- Target coverage is balanced within ten-question runs before repeating vocabulary. Binary lessons retain their earlier limited-repeat behavior instead of forced A/B alternation.
-- Final broad simple/compound assessments include all four compound targets (13,14,15,16 semitones) and six distinct simple targets per ten-question run, in randomized order. Final roots 60–68 fit all instruments' bundled samples.
-- Actual-generator follow-up: **500,000 questions**, zero options excluded by the former nearest-answer rule, complete compound coverage in all **1,000 final-assessment runs** sampled. Mean semitone-neighbor distractors at level 100 improved from about 1.09 to 1.58; earlier dense level 57 is about 1.67. These diagnostics do not prove perceptual calibration.
-- `CURRICULUM_REVIEW.md` records the latest implementation followed by historical reviews; older “unresolved” findings/percentages are superseded. `LEVEL_REORDER.md` has successive mappings; the latest pass swapped only 29/30 and 86/97. Saved scores/stars stay attached to numbered slots, not lesson identities. No score migration or gate change was made.
-- Important tests: `tests/curriculum.test.ts`, `tests/progression.test.ts`, `tests/game.test.ts` and `tests/specialties.test.ts`. Future changes must respect easy introductions rather than enforcing a semitone neighbor in every introductory task.
+- Source: `src/game/levels.ts`; 100 authored levels in five packs, ten questions each. All English/German lesson names and descriptions were replaced on 2026-11-10.
+- Blasorchester focus: **95% expected wind-instrument questions**, 17 used GM programs. Core: clarinet 22 levels, trumpet 18, flute 15, trombone/horn/alto sax 14 each. Supporting tuba/tenor/baritone sax, occasional piccolo/soprano sax/oboe/bassoon. Piano occurs twice; nylon guitar, violin and electric piano once each.
+- Distinct **Tenorhorn, Bariton/Euphonium and Flügelhorn are NOT available** in the bundled GM samples. An optional question offered to source new sounds; no answer arrived, so existing samples were used and these gaps documented. Do not relabel other brass presets as those sounds or claim the full requested instrumentation is complete.
+- `LEVEL_DESIGN.md` is generated by `scripts/document-levels.ts` and includes instrument regularity, every appearance, expected question share, bilingual names and a weak-link audit. No adjacent lessons share an instrument; every transition changes at least two of instrument pool, interval pool, presentation and timing. Intentional repeated interval pools are listed. Soprano sax and bassoon return lessons were added after the audit exposed long gaps/one-off introductions.
+- The complete retired curriculum and both translations are preserved under `archive/curricula/pre-blasorchester-2026-11-10/`. All slots are replaced in place, old N → new N; no reorder or score migration. `LEVEL_REORDER.md` and `CURRICULUM_REVIEW.md` now mark earlier mappings/reviews historical.
+- Opening: 1 clarinet [0,7], 2 trumpet [4,12], 3 flute [2,7], 4 trombone [5,12], 5 alto sax [4,7]. Four answers start at **6**. No lesson uses only Prime/octave. First harmony remains **12**. Unison stays exclusive to pack 1; all pack-1 candidate pairs are at least two semitones apart.
+- First 50 lessons avoid fast playback and six answers. New instrument/interval introductions remain slow, sustained (1100 ms), narrow in roots (at most five semitones), fixed presentation and at most four answers; spaced comparisons except the focused minor/major thirds at 25.
+- Only **24,25,41,82** have two choices after level 20. Minor second/third at 24/25, tritone 41, major sixth 42, minor/major sevenths 43/45. Compounds 13–16 introduced at 82–85, consolidated slowly at 86, transferred at 94. Six-answer practice starts at 57 on trumpet.
+- Every lesson is exclusively melodic or harmonic. `melodic` randomizes direction only. Root ranges are the lower note, regardless of playback direction; all instruments in a pool must cover root + largest interval. Tuba avoids the lowest bundled register, but BUG-001 still needs listening checks.
+- Question generation is unchanged: from pack 2 onward, answers are consecutive windows in the sorted eligible pool. All options can be targets; do not restore target-only nearest-distractor filtering. Review pools are close; introduction pools deliberately spaced. Target coverage is balanced in ten-question runs, while binary lessons avoid forced alternation.
+- 99–100 retain all four compound targets plus six distinct simple targets in every ten-question run. Prior 500,000-question diagnostics describe the previous curriculum, not a new run on this rework.
+- Pack names are unchanged, including intentional **Listning Challenge / Hörausforderung** and **Beyond the Octave / Über der Oktave**.
+
+## Current validation and known bugs — 2026-11-10
+
+- Final `npm run check` passed: lint; app/test/tool typechecks; **66 tests**; 100 levels; **30,000 seeded questions**; **7,483 exhaustive instrument/root/interval combinations**; 4,760 note slots in 128 checksummed banks; English/German validation. `npm run docs:levels` regenerated the report. No new native runtime/device test was performed.
+- `tests/curriculum-update.test.ts` covers instrument weights, opening/adjacent variety, all renamed bilingual titles, archive slot parity and old-save load/save retention across curriculum replacement and access modes.
+- `KNOWN_BUGS.md`: BUG-001 quiet low notes is low priority/deferred. BUG-002 Android tones stop after extended play is high priority; candidate fix implemented, device confirmation pending.
+- Likely BUG-002 cause: installed expo-audio 58.0.11 Android `remove()` unregisters a player without releasing its ExoPlayer/decoder/update coroutine until shared-object GC. `src/audio/nativeVoice.ts` now explicitly calls inherited `release()` on exclusively owned players and retains error statuses; service.ts uses it. `tests/native-audio.test.ts` covers normal/replay cleanup, 100 rapid cancellations and recovery, fade cancellation, sticky errors. The exact device symptom is not yet confirmed fixed.
 
 ## Harmonic playback and tutorials
 
@@ -122,7 +127,7 @@ Additional explicit requirements:
 
 ## Audio, localization and offline behavior
 
-- 128 bundled GM programs, 4,760 note slots in 128 AAC/M4A banks (~46.05 MiB); authored levels use 34 pitched instruments. Static bank/offset references ensure offline bundling. All required ranges/assets are validated.
+- 128 bundled GM programs, 4,760 note slots in 128 AAC/M4A banks (~46.05 MiB); authored levels now use 17 pitched instruments (95% expected wind questions). Static bank/offset references ensure offline bundling. All required ranges/assets are validated.
 - Preserve the cold-web-audio fix: wait for metadata, actual seek completion and buffered/playable audio; await playback start before timing audible duration. Keep cancellation/replay and web/audio regression tests intact. Native driver uses expo-audio; web driver is separate.
 - Interval IDs, MIDI, calculations and assets are language-independent. Labels through localizedInterval in src/localization/core.ts; German compounds are kleine/große None and kleine/große Dezime. English/German UI and level descriptions are maintained together.
 - Production web uses a versioned service worker and audio range-request support. Old open tabs may hold an old build until the replacement activates. Preserve local progress/preferences when refreshing; do not clear all storage. See scripts/build-offline.mjs and scripts/serve-web.mjs. Port 8084 references are historical, not permission to start another server.
@@ -151,7 +156,7 @@ Spiele die Töne beliebig oft ab und wähle das passende Intervall. Du trainiers
 Fünf Levelpakete führen dich durch unterschiedliche Aufgaben. Neue Instrumente und Intervalle werden behutsam eingeführt. Später fordern engere Vergleiche, mehr Antwortmöglichkeiten und wechselnde Klangfarben dein Gehör heraus. Auch Intervalle über eine Oktave hinaus gehören dazu.
 
 **Verschiedene Instrumente kennenlernen**
-Klavier, Gitarre, Flöte, Trompete, Streicher und weitere Instrumente bringen Abwechslung ins Training. So lernst du, Intervalle über verschiedene Klangfarben und Tonlagen hinweg zu erkennen.
+Klarinette, Flöte, Trompete, Posaune, Horn, Tuba und alle vier Saxofone bringen Abwechslung ins Training. So lernst du, Intervalle über verschiedene Klangfarben und Tonlagen hinweg zu erkennen.
 
 **Deinen Fortschritt sehen**
 Sammle bis zu drei Sterne pro Level und schalte weitere Aufgaben frei. Deine besten Ergebnisse bleiben gespeichert. Wiederhole jedes freigeschaltete Level, um dich zu verbessern.
@@ -171,10 +176,10 @@ Ob du ein Instrument spielst, singst oder dein musikalisches Gehör schulen möc
 
 - Verify the **current** EAS project association and signing/build-number state; fix the local CLI cache problem if still present. Do not delete projects or signing credentials as a routine repair.
 - Package/install on Android and smoke-test cold first-note accuracy, harmonic synchronization, replay/cancellation, background/interruption/headphone behavior, airplane-mode playback and progress/language persistence after restart. Also review the new launcher/splash appearance. Native device behavior has not been validated by these exports/browser captures.
-- Resolve legacy test-save migration expectations, obtain native store screenshots and review actual store-console state before publication. Keep version 1.1.0 unless instructed otherwise.
+- Preserve current Listn saves on fixed numbered slots; older Intervalify-key migration remains separate. Obtain fresh native store screenshots and review actual store-console state before publication. Keep version 1.1.0 unless instructed otherwise.
 - Cloudflare Worker/domain association and website deployment follow-ups remain separate; local rename/config changes did not verify or change remote hosting. Website remains intervalify.app.
 - Priorities: beta testing, then full release. No further feature/redesign work is recommended just to package this version; listening/playtesting should drive subsequent difficulty calibration.
-- ROADMAP.md has ideas from a separate planning chat: more Musikverein/wind-band instruments with fewer strings, and a later rhythm-listening track. These expansion ideas were not implemented and are not blanket authorization to do so. Do not treat its older planning-only/version-1.0 wording as cancelling this chat's explicitly authorized implementations.
+- ROADMAP.md now records the implemented wind-band rework and remaining sample gaps. Its older planning-only/version-1.0 sections are explicitly historical. A rhythm-listening track remains a future idea, not implemented or authorized by this rework.
 - Useful references: PACKAGING_REVIEW.md (latest status first, historical findings below), LEVEL_DESIGN.md, LEVEL_REORDER.md, CURRICULUM_REVIEW.md, DEVELOPMENT.md, VALIDATION.md, LOCALIZATION.md, THIRD_PARTY_LICENSES.md. Some historical docs still contain obsolete level IDs/version/build claims; prefer current source plus this handoff and verify facts before acting.
 
-This handoff consolidation changes documentation only. It does not constitute a fresh full application check, native build, deployment or remote EAS verification.
+This handoff includes the implemented 2026-11-10 curriculum rework and successful full checks. No new native binary, device QA, deployment or remote EAS verification was performed. Existing store screenshots show retired lesson names/settings and need replacement. App version remains 1.1.0; no automatic bump was requested.

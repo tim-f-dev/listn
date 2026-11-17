@@ -1,0 +1,2216 @@
+[
+  {
+    "id": 1,
+    "title": "Same or soaring",
+    "intervals": [
+      0,
+      12
+    ],
+    "choices": 2,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Hear one pitch twice versus an octave; a narrow root range keeps the opening calm."
+  },
+  {
+    "id": 2,
+    "title": "Bass breathing space",
+    "intervals": [
+      0,
+      12
+    ],
+    "choices": 2,
+    "instruments": [
+      32
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 40,
+    "maxMidiNote": 45,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Contrast unison and octave on low acoustic bass before moving to closer intervals."
+  },
+  {
+    "id": 3,
+    "title": "Open strings clearing",
+    "intervals": [
+      0,
+      12
+    ],
+    "choices": 2,
+    "instruments": [
+      45
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Distinguish unison and ascending octave on pizzicato strings."
+  },
+  {
+    "id": 4,
+    "title": "Together at the piano",
+    "intervals": [
+      0,
+      7
+    ],
+    "choices": 2,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Compare unison and ascending fifth on familiar piano."
+  },
+  {
+    "id": 5,
+    "title": "Cello foundations",
+    "intervals": [
+      0,
+      7
+    ],
+    "choices": 2,
+    "instruments": [
+      42
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 43,
+    "maxMidiNote": 48,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Low cello introduces bass listening without close interval distinctions."
+  },
+  {
+    "id": 6,
+    "title": "A clean landing",
+    "intervals": [
+      0,
+      7
+    ],
+    "choices": 2,
+    "instruments": [
+      27
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Recognize descending unison and fifth on clean electric guitar."
+  },
+  {
+    "id": 7,
+    "title": "Air above",
+    "intervals": [
+      4,
+      12
+    ],
+    "choices": 2,
+    "instruments": [
+      73
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 65,
+    "maxMidiNote": 70,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "A flute changes attack and register while the interval gap stays generous."
+  },
+  {
+    "id": 8,
+    "title": "Guitar steps down",
+    "intervals": [
+      7,
+      12
+    ],
+    "choices": 2,
+    "instruments": [
+      24
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Recognize descending fifth and octave on nylon guitar."
+  },
+  {
+    "id": 9,
+    "title": "Quick wooden echoes",
+    "intervals": [
+      7,
+      12
+    ],
+    "choices": 2,
+    "instruments": [
+      12
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Recognize familiar intervals at an unhurried pace, with no more than four answer choices."
+  },
+  {
+    "id": 10,
+    "title": "A brass hello",
+    "intervals": [
+      4,
+      7
+    ],
+    "choices": 2,
+    "instruments": [
+      56
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Meet trumpet slowly through a familiar major-third versus fifth comparison."
+  },
+  {
+    "id": 11,
+    "title": "A little farther",
+    "intervals": [
+      2,
+      5
+    ],
+    "choices": 2,
+    "instruments": [
+      71
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Clarinet introduces major second and perfect fourth with only two choices."
+  },
+  {
+    "id": 12,
+    "title": "Marimba rest stop",
+    "intervals": [
+      4,
+      7
+    ],
+    "choices": 2,
+    "instruments": [
+      12
+    ],
+    "playback": "harmonic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 900,
+    "difficulty": "steady",
+    "challenge": "First simultaneous notes: distinguish major third and perfect fifth played together on marimba."
+  },
+  {
+    "id": 13,
+    "title": "Flute calm",
+    "intervals": [
+      4,
+      7
+    ],
+    "choices": 2,
+    "instruments": [
+      73
+    ],
+    "playback": "ascending",
+    "speed": "normal",
+    "minMidiNote": 65,
+    "maxMidiNote": 72,
+    "noteDurationMs": 900,
+    "difficulty": "steady",
+    "challenge": "Recognize familiar intervals at an unhurried pace, with no more than four answer choices."
+  },
+  {
+    "id": 14,
+    "title": "A bow between friends",
+    "intervals": [
+      4,
+      7
+    ],
+    "choices": 2,
+    "instruments": [
+      40
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Recognize familiar intervals at an unhurried pace, with no more than four answer choices."
+  },
+  {
+    "id": 15,
+    "title": "Trumpet sunlight",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      56
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 1100,
+    "difficulty": "stretch",
+    "challenge": "Consolidate four spaced intervals on slow trumpet with familiar melodic shapes."
+  },
+  {
+    "id": 16,
+    "title": "Trumpet reprieve",
+    "intervals": [
+      2,
+      5,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      56
+    ],
+    "playback": "descending",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 900,
+    "difficulty": "stretch",
+    "challenge": "Compare four familiar descending trumpet intervals, with fourth and fifth as the closest pair."
+  },
+  {
+    "id": 17,
+    "title": "Flute horizon",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      73
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 72,
+    "maxMidiNote": 79,
+    "noteDurationMs": 1000,
+    "difficulty": "stretch",
+    "challenge": "Compare four spaced intervals on high flute at a slow pace."
+  },
+  {
+    "id": 18,
+    "title": "Two soft plucks",
+    "intervals": [
+      2,
+      5,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      24
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 48,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "stretch",
+    "challenge": "Compare four descending intervals on low nylon guitar, including the closer fourth and fifth."
+  },
+  {
+    "id": 19,
+    "title": "Harp geometry",
+    "intervals": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      46
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Meet harp and minor sixth with four clearly spaced intervals, slow notes and a narrow root range."
+  },
+  {
+    "id": 20,
+    "title": "First crossroads",
+    "intervals": [
+      0,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      0,
+      24
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 850,
+    "difficulty": "stretch",
+    "challenge": "Melodic intervals alternate between ascending and descending notes; harmonic intervals are excluded."
+  },
+  {
+    "id": 21,
+    "title": "Quick brass anchors",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      56
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "steady",
+    "challenge": "Review four familiar, spaced trumpet intervals before the finer comparisons."
+  },
+  {
+    "id": 22,
+    "title": "Four familiar shapes",
+    "intervals": [
+      2,
+      4,
+      5,
+      7
+    ],
+    "choices": 4,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 900,
+    "difficulty": "steady",
+    "challenge": "Bridge wide contrasts and neighboring answers with major second, major third, fourth and fifth on piano."
+  },
+  {
+    "id": 23,
+    "title": "Air and strings",
+    "intervals": [
+      2,
+      4,
+      5,
+      7
+    ],
+    "choices": 4,
+    "instruments": [
+      40,
+      73
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 900,
+    "difficulty": "steady",
+    "challenge": "Compare four familiar intervals across violin and flute in both melodic directions."
+  },
+  {
+    "id": 24,
+    "title": "Half-step lanterns",
+    "intervals": [
+      1,
+      4
+    ],
+    "choices": 2,
+    "instruments": [
+      8
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 65,
+    "maxMidiNote": 70,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Meet the minor second and celesta slowly, with a familiar major third as a clearly separated alternative."
+  },
+  {
+    "id": 25,
+    "title": "Two shades of third",
+    "intervals": [
+      3,
+      4
+    ],
+    "choices": 2,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 64,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Introduce the minor third beside the familiar major third on slow piano, with only two answers."
+  },
+  {
+    "id": 26,
+    "title": "High porcelain",
+    "intervals": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "choices": 4,
+    "instruments": [
+      8
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 65,
+    "maxMidiNote": 70,
+    "noteDurationMs": 1100,
+    "difficulty": "steady",
+    "challenge": "Consolidate four neighboring small intervals on familiar celesta with slow ascending notes."
+  },
+  {
+    "id": 27,
+    "title": "Thirds on the way down",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      25
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 28,
+    "title": "Quiet low strings",
+    "intervals": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "choices": 4,
+    "instruments": [
+      42
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 43,
+    "maxMidiNote": 48,
+    "noteDurationMs": 1100,
+    "difficulty": "stretch",
+    "challenge": "Compare four neighboring small intervals played together on low cello."
+  },
+  {
+    "id": 29,
+    "title": "Bright crowded keys",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      4
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 30,
+    "title": "Three travelers",
+    "intervals": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "choices": 4,
+    "instruments": [
+      40,
+      24,
+      73
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 1100,
+    "difficulty": "stretch",
+    "challenge": "Compare four neighboring small intervals slowly across violin, guitar and flute."
+  },
+  {
+    "id": 31,
+    "title": "Bells at a run",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      9
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 72,
+    "maxMidiNote": 77,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 32,
+    "title": "Smallest shadows",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      11
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 33,
+    "title": "Low brass corners",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      58
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 40,
+    "maxMidiNote": 45,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 34,
+    "title": "Seconds in company",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "choices": 4,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "stretch",
+    "challenge": "Compare small intervals carefully at a slow pace; replay the notes as often as you need."
+  },
+  {
+    "id": 35,
+    "title": "Piccolo windows",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      72
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 72,
+    "maxMidiNote": 77,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 36,
+    "title": "Wide piano compass",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "choices": 4,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "normal",
+    "minMidiNote": 48,
+    "maxMidiNote": 55,
+    "noteDurationMs": 900,
+    "difficulty": "stretch",
+    "challenge": "Compare closely spaced small intervals on low piano, with four answers per question."
+  },
+  {
+    "id": 37,
+    "title": "Guitar lightning",
+    "intervals": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "choices": 4,
+    "instruments": [
+      24,
+      27
+    ],
+    "playback": "descending",
+    "speed": "normal",
+    "minMidiNote": 55,
+    "maxMidiNote": 67,
+    "noteDurationMs": 900,
+    "difficulty": "stretch",
+    "challenge": "Distinguish four neighboring descending intervals across nylon and clean electric guitar."
+  },
+  {
+    "id": 38,
+    "title": "Bassoon pathways",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      70
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 43,
+    "maxMidiNote": 48,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 39,
+    "title": "Harp invitation",
+    "intervals": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "choices": 4,
+    "instruments": [
+      46
+    ],
+    "playback": "ascending",
+    "speed": "normal",
+    "minMidiNote": 55,
+    "maxMidiNote": 62,
+    "noteDurationMs": 900,
+    "difficulty": "stretch",
+    "challenge": "Recognize four neighboring small intervals through the plucked attack of the harp."
+  },
+  {
+    "id": 40,
+    "title": "High wind sprint",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "choices": 4,
+    "instruments": [
+      72,
+      73
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 72,
+    "maxMidiNote": 79,
+    "noteDurationMs": 900,
+    "difficulty": "stretch",
+    "challenge": "Consolidate small neighboring intervals across piccolo and flute in both melodic directions."
+  },
+  {
+    "id": 41,
+    "title": "The tilted fifth",
+    "intervals": [
+      4,
+      6
+    ],
+    "choices": 2,
+    "instruments": [
+      11
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Introduce the tritone on familiar vibraphone beside a clearly separated major third."
+  },
+  {
+    "id": 42,
+    "title": "Warm sixths",
+    "intervals": [
+      4,
+      7,
+      9,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      24
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Introduce the major sixth on slow guitar among three familiar, spaced intervals."
+  },
+  {
+    "id": 43,
+    "title": "Sevenths in the reeds",
+    "intervals": [
+      4,
+      7,
+      10,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      68
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Meet oboe and minor seventh with slow notes and four clearly spaced answers."
+  },
+  {
+    "id": 44,
+    "title": "Sixths in the air",
+    "intervals": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "choices": 4,
+    "instruments": [
+      73
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 65,
+    "maxMidiNote": 72,
+    "noteDurationMs": 1100,
+    "difficulty": "steady",
+    "challenge": "Consolidate four neighboring upper intervals slowly on familiar flute."
+  },
+  {
+    "id": 45,
+    "title": "Sevenths falling",
+    "intervals": [
+      5,
+      7,
+      9,
+      11
+    ],
+    "choices": 4,
+    "instruments": [
+      73
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 65,
+    "maxMidiNote": 70,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Introduce the major seventh slowly downwards on familiar flute, with clearly spaced alternatives."
+  },
+  {
+    "id": 46,
+    "title": "Sixths under glass",
+    "intervals": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "choices": 4,
+    "instruments": [
+      8
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 72,
+    "maxMidiNote": 79,
+    "noteDurationMs": 1100,
+    "difficulty": "steady",
+    "challenge": "Compare four neighboring upper intervals on familiar celesta at a slow pace."
+  },
+  {
+    "id": 47,
+    "title": "The moving semitone",
+    "intervals": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "choices": 4,
+    "instruments": [
+      0,
+      56
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 1100,
+    "difficulty": "steady",
+    "challenge": "Compare four neighboring intervals around fourth and fifth on piano and trumpet."
+  },
+  {
+    "id": 48,
+    "title": "Cello thirds return",
+    "intervals": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "choices": 4,
+    "instruments": [
+      42
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 43,
+    "maxMidiNote": 55,
+    "noteDurationMs": 1100,
+    "difficulty": "steady",
+    "challenge": "Consolidate four neighboring small harmonic intervals on familiar low cello."
+  },
+  {
+    "id": 49,
+    "title": "Flute thirds revisit",
+    "intervals": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "choices": 4,
+    "instruments": [
+      73
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 1100,
+    "difficulty": "steady",
+    "challenge": "Compare four neighboring small intervals on slow flute with a narrow root range."
+  },
+  {
+    "id": 50,
+    "title": "Two bass colors",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      32,
+      35
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 36,
+    "maxMidiNote": 41,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 51,
+    "title": "Muted brass twins",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      59
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 52,
+    "title": "Viola welcome",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      41
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 53,
+    "title": "Cello long view",
+    "intervals": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "choices": 4,
+    "instruments": [
+      42
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 43,
+    "maxMidiNote": 50,
+    "noteDurationMs": 1100,
+    "difficulty": "recovery",
+    "challenge": "Keep close fourth-to-sixth comparisons while slowing down on low cello."
+  },
+  {
+    "id": 54,
+    "title": "Almost home",
+    "intervals": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 1000,
+    "difficulty": "stretch",
+    "challenge": "Compare major sixth, both sevenths and octave on slow piano."
+  },
+  {
+    "id": 55,
+    "title": "A fourth on either side",
+    "intervals": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "choices": 4,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 62,
+    "noteDurationMs": 1100,
+    "difficulty": "stretch",
+    "challenge": "Build a four-note interval neighborhood around the perfect fourth."
+  },
+  {
+    "id": 56,
+    "title": "Reed junction",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      65,
+      71
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 57,
+    "title": "Six signposts",
+    "intervals": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "choices": 6,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "stretch",
+    "challenge": "Expand to six neighboring interval answers on slow, familiar piano."
+  },
+  {
+    "id": 58,
+    "title": "Accordion angles",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      21
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 59,
+    "title": "Three ways through",
+    "intervals": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "choices": 6,
+    "instruments": [
+      0,
+      40
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 850,
+    "difficulty": "stretch",
+    "challenge": "Melodic intervals alternate between ascending and descending notes; harmonic intervals are excluded."
+  },
+  {
+    "id": 60,
+    "title": "Third mosaic",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "choices": 6,
+    "instruments": [
+      0,
+      24,
+      40,
+      73
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 850,
+    "difficulty": "stretch",
+    "challenge": "Review all simple intervals in both melodic directions with six compactly grouped answers."
+  },
+  {
+    "id": 61,
+    "title": "Opening mosaic",
+    "intervals": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "choices": 4,
+    "instruments": [
+      0,
+      40,
+      73
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 850,
+    "difficulty": "stretch",
+    "challenge": "Transfer a close interval neighborhood across piano, violin and flute in both melodic directions."
+  },
+  {
+    "id": 62,
+    "title": "Piano flashcards",
+    "intervals": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "choices": 6,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "fast",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 450,
+    "difficulty": "expert",
+    "challenge": "Six neighboring intervals return at a faster pace."
+  },
+  {
+    "id": 63,
+    "title": "Near the octave",
+    "intervals": [
+      7,
+      9,
+      10,
+      11,
+      12,
+      8
+    ],
+    "choices": 6,
+    "instruments": [
+      0
+    ],
+    "playback": "descending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "expert",
+    "challenge": "Six upper intervals compete; slow piano keeps their contour clear."
+  },
+  {
+    "id": 64,
+    "title": "Bass under pressure",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      33
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 40,
+    "maxMidiNote": 45,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 65,
+    "title": "Clavinet corners",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      7
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 66,
+    "title": "Nylon reset",
+    "intervals": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "choices": 4,
+    "instruments": [
+      24
+    ],
+    "playback": "melodic",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 62,
+    "noteDurationMs": 1100,
+    "difficulty": "recovery",
+    "challenge": "Recover with slow nylon guitar and a narrow root range while retaining four neighboring answers."
+  },
+  {
+    "id": 67,
+    "title": "Choir intervals",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      52
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 68,
+    "title": "Organ pillars",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      16
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 48,
+    "maxMidiNote": 53,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 69,
+    "title": "Double-reed shadows",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      68,
+      69
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 70,
+    "title": "Celesta zigzag",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "choices": 6,
+    "instruments": [
+      8
+    ],
+    "playback": "melodic",
+    "speed": "fast",
+    "minMidiNote": 65,
+    "maxMidiNote": 79,
+    "noteDurationMs": 500,
+    "difficulty": "expert",
+    "challenge": "Distinguish six neighboring small intervals on fast celesta in both melodic directions."
+  },
+  {
+    "id": 71,
+    "title": "Marimba spectrum",
+    "intervals": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "choices": 6,
+    "instruments": [
+      12
+    ],
+    "playback": "descending",
+    "speed": "fast",
+    "minMidiNote": 48,
+    "maxMidiNote": 72,
+    "noteDurationMs": 450,
+    "difficulty": "expert",
+    "challenge": "Compare close upper intervals on fast descending marimba across a wide root range."
+  },
+  {
+    "id": 72,
+    "title": "Half-step relay",
+    "intervals": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "choices": 4,
+    "instruments": [
+      0,
+      24,
+      40,
+      73
+    ],
+    "playback": "melodic",
+    "speed": "fast",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 450,
+    "difficulty": "stretch",
+    "challenge": "Relay four neighboring small intervals across familiar instruments in both melodic directions at a fast pace."
+  },
+  {
+    "id": 73,
+    "title": "The last quick pair",
+    "intervals": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "choices": 4,
+    "instruments": [
+      56,
+      0
+    ],
+    "playback": "melodic",
+    "speed": "fast",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 350,
+    "difficulty": "stretch",
+    "challenge": "Compare four neighboring intervals around the fifth with short melodic note pairs on piano and trumpet."
+  },
+  {
+    "id": 74,
+    "title": "Organ dusk",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      19
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 48,
+    "maxMidiNote": 53,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 75,
+    "title": "A wooden switch",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      12,
+      13
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 76,
+    "title": "Second mosaic",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "choices": 6,
+    "instruments": [
+      0,
+      56,
+      24
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 900,
+    "difficulty": "expert",
+    "challenge": "Compare a dense lower interval pool across piano, trumpet and guitar in both melodic directions."
+  },
+  {
+    "id": 77,
+    "title": "Around the sixth",
+    "intervals": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "choices": 6,
+    "instruments": [
+      25
+    ],
+    "playback": "descending",
+    "speed": "normal",
+    "minMidiNote": 55,
+    "maxMidiNote": 67,
+    "noteDurationMs": 850,
+    "difficulty": "expert",
+    "challenge": "Steel guitar compares a continuous six-interval neighborhood."
+  },
+  {
+    "id": 78,
+    "title": "Saxophone neighbors",
+    "intervals": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "choices": 4,
+    "instruments": [
+      65,
+      66
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Get to know the new instrument with slow notes, four familiar, spaced intervals and a narrow root range."
+  },
+  {
+    "id": 79,
+    "title": "Eleven neighboring doors",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "choices": 6,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 67,
+    "noteDurationMs": 1100,
+    "difficulty": "expert",
+    "challenge": "Every non-unison simple interval except octave can appear among six choices."
+  },
+  {
+    "id": 80,
+    "title": "Fourth mosaic",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "choices": 6,
+    "instruments": [
+      0,
+      56,
+      40,
+      71
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 850,
+    "difficulty": "expert",
+    "challenge": "Melodic intervals alternate between ascending and descending notes; harmonic intervals are excluded."
+  },
+  {
+    "id": 81,
+    "title": "A clear entrance",
+    "intervals": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "choices": 4,
+    "instruments": [
+      11
+    ],
+    "playback": "ascending",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 900,
+    "difficulty": "stretch",
+    "challenge": "Open the final pack with four neighboring sixths and sevenths on clear vibraphone."
+  },
+  {
+    "id": 82,
+    "title": "Guitar shelter",
+    "intervals": [
+      9,
+      13
+    ],
+    "choices": 2,
+    "instruments": [
+      24
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 48,
+    "maxMidiNote": 53,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Introduce the minor ninth slowly on familiar nylon guitar beside a clearly separated major sixth."
+  },
+  {
+    "id": 83,
+    "title": "Harp breathing room",
+    "intervals": [
+      7,
+      10,
+      12,
+      14
+    ],
+    "choices": 4,
+    "instruments": [
+      46
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 60,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Introduce the major ninth on slow harp among three familiar, clearly spaced intervals."
+  },
+  {
+    "id": 84,
+    "title": "Beyond the octave",
+    "intervals": [
+      7,
+      10,
+      12,
+      15
+    ],
+    "choices": 4,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 48,
+    "maxMidiNote": 53,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Introduce the minor tenth on slow piano among three familiar, clearly spaced intervals."
+  },
+  {
+    "id": 85,
+    "title": "Compound air",
+    "intervals": [
+      7,
+      10,
+      13,
+      16
+    ],
+    "choices": 4,
+    "instruments": [
+      73
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 65,
+    "noteDurationMs": 1100,
+    "difficulty": "gentle",
+    "challenge": "Introduce the major tenth slowly on familiar flute, with four widely spaced answers and a narrow root range."
+  },
+  {
+    "id": 86,
+    "title": "One quiet breath",
+    "intervals": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "choices": 4,
+    "instruments": [
+      24
+    ],
+    "playback": "ascending",
+    "speed": "slow",
+    "minMidiNote": 55,
+    "maxMidiNote": 67,
+    "noteDurationMs": 1100,
+    "difficulty": "recovery",
+    "challenge": "Consolidate octave, ninths and tenths on slow nylon guitar, keeping four close answers."
+  },
+  {
+    "id": 87,
+    "title": "All twelve",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "choices": 6,
+    "instruments": [
+      0
+    ],
+    "playback": "ascending",
+    "speed": "normal",
+    "minMidiNote": 55,
+    "maxMidiNote": 72,
+    "noteDurationMs": 850,
+    "difficulty": "expert",
+    "challenge": "Review all twelve simple intervals on piano, comparing six nearby answers in each question."
+  },
+  {
+    "id": 88,
+    "title": "Trumpet in motion",
+    "intervals": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "choices": 6,
+    "instruments": [
+      56
+    ],
+    "playback": "descending",
+    "speed": "fast",
+    "minMidiNote": 54,
+    "maxMidiNote": 72,
+    "noteDurationMs": 400,
+    "difficulty": "expert",
+    "challenge": "Distinguish six neighboring upper intervals on fast descending trumpet."
+  },
+  {
+    "id": 89,
+    "title": "Piccolo fine print",
+    "intervals": [
+      10,
+      11,
+      12,
+      9
+    ],
+    "choices": 4,
+    "instruments": [
+      72
+    ],
+    "playback": "ascending",
+    "speed": "normal",
+    "minMidiNote": 72,
+    "maxMidiNote": 84,
+    "noteDurationMs": 850,
+    "difficulty": "stretch",
+    "challenge": "Upper-register piccolo narrows the focus to the octave and its neighbors."
+  },
+  {
+    "id": 90,
+    "title": "Bass octave puzzle",
+    "intervals": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "choices": 6,
+    "instruments": [
+      32,
+      33
+    ],
+    "playback": "melodic",
+    "speed": "slow",
+    "minMidiNote": 36,
+    "maxMidiNote": 55,
+    "noteDurationMs": 1100,
+    "difficulty": "expert",
+    "challenge": "Distinguish close intervals across acoustic and electric bass, using slow notes and both melodic directions."
+  },
+  {
+    "id": 91,
+    "title": "Crowded upper strings",
+    "intervals": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "choices": 6,
+    "instruments": [
+      40,
+      41
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 1200,
+    "difficulty": "expert",
+    "challenge": "Dense wide-interval harmonies alternate violin and viola near their upper register."
+  },
+  {
+    "id": 92,
+    "title": "Black-key neighbors",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "choices": 6,
+    "instruments": [
+      0,
+      4
+    ],
+    "playback": "melodic",
+    "speed": "fast",
+    "minMidiNote": 55,
+    "maxMidiNote": 72,
+    "noteDurationMs": 500,
+    "difficulty": "expert",
+    "challenge": "Melodic intervals alternate between ascending and descending notes; harmonic intervals are excluded."
+  },
+  {
+    "id": 93,
+    "title": "Reed close-up",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "choices": 6,
+    "instruments": [
+      68,
+      71
+    ],
+    "playback": "harmonic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 1100,
+    "difficulty": "expert",
+    "challenge": "Compare six neighboring harmonic intervals on familiar oboe and clarinet."
+  },
+  {
+    "id": 94,
+    "title": "Metal and wood",
+    "intervals": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "choices": 6,
+    "instruments": [
+      8,
+      11,
+      12
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 68,
+    "noteDurationMs": 850,
+    "difficulty": "expert",
+    "challenge": "Transfer close upper intervals, ninths and tenths across familiar celesta, vibraphone and marimba in both melodic directions."
+  },
+  {
+    "id": 95,
+    "title": "String seconds sprint",
+    "intervals": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "choices": 4,
+    "instruments": [
+      40,
+      45
+    ],
+    "playback": "descending",
+    "speed": "fast",
+    "minMidiNote": 60,
+    "maxMidiNote": 72,
+    "noteDurationMs": 350,
+    "difficulty": "expert",
+    "challenge": "Fast bowed and pizzicato strings concentrate on small descending intervals."
+  },
+  {
+    "id": 96,
+    "title": "Low harmonic labyrinth",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "choices": 6,
+    "instruments": [
+      0,
+      42
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 43,
+    "maxMidiNote": 55,
+    "noteDurationMs": 1200,
+    "difficulty": "expert",
+    "challenge": "Six tight harmonic intervals in low piano and cello need patient separation."
+  },
+  {
+    "id": 97,
+    "title": "Low brass return",
+    "intervals": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "choices": 4,
+    "instruments": [
+      58
+    ],
+    "playback": "harmonic",
+    "speed": "slow",
+    "minMidiNote": 40,
+    "maxMidiNote": 55,
+    "noteDurationMs": 1100,
+    "difficulty": "stretch",
+    "challenge": "Carry four neighboring harmonic intervals into low tuba at a slow pace."
+  },
+  {
+    "id": 98,
+    "title": "Across the keyboard",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "choices": 6,
+    "instruments": [
+      0
+    ],
+    "playback": "melodic",
+    "speed": "fast",
+    "minMidiNote": 43,
+    "maxMidiNote": 79,
+    "noteDurationMs": 450,
+    "difficulty": "expert",
+    "challenge": "Melodic intervals alternate between ascending and descending notes; harmonic intervals are excluded."
+  },
+  {
+    "id": 99,
+    "title": "Chamber crossroads",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "choices": 6,
+    "instruments": [
+      0,
+      24,
+      40,
+      73,
+      71
+    ],
+    "playback": "melodic",
+    "speed": "normal",
+    "minMidiNote": 60,
+    "maxMidiNote": 68,
+    "noteDurationMs": 900,
+    "difficulty": "expert",
+    "challenge": "Combine simple intervals and all four ninths and tenths across five instruments, with six nearby answers."
+  },
+  {
+    "id": 100,
+    "title": "Listn finale",
+    "intervals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "choices": 6,
+    "instruments": [
+      0,
+      24,
+      40,
+      56,
+      73
+    ],
+    "playback": "melodic",
+    "speed": "fast",
+    "minMidiNote": 60,
+    "maxMidiNote": 68,
+    "noteDurationMs": 550,
+    "difficulty": "expert",
+    "challenge": "Master simple intervals and all four ninths and tenths across five instruments at a fast pace, with six nearby answers."
+  }
+]

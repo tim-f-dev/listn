@@ -1,12 +1,16 @@
 <de-DE>
-• Neues Listn-Design mit überarbeiteter Navigation und Levelvorschau.
-• 100 neu abgestimmte Levels mit behutsamen Einführungen in neue Instrumente und Intervalle.
-• Anspruchsvollere Intervallvergleiche und gezieltes Training von Nonen und Dezimen.
-• Einführung in harmonische Intervalle vor der ersten entsprechenden Übung.
+• Neues Design, überarbeitete Navigation und Levelvorschau.
+• 100 Blasorchester-Levels: mehr Holz- und Blechbläser, neue Namen und ein abwechslungsreicher Einstieg.
+• Behutsame Einführungen, engere Intervallvergleiche sowie Nonen und Dezimen.
+• Einführung in harmonische Intervalle.
+• Bisherige Sterne und Bestwerte bleiben erhalten.
+• Verbesserte Freigabe von Audioressourcen nach Übungen und Wiederholungen.
 </de-DE>
 <en-US>
-• New Listn design with updated navigation and level previews.
-• 100 rebalanced levels with gentle introductions to new instruments and intervals.
-• More challenging interval comparisons and focused practice of ninths and tenths.
-• A harmonic interval introduction before your first simultaneous-note exercise.
+• New design, updated navigation and level previews.
+• 100 wind-band levels: more woodwinds and brass, new names and a varied opening.
+• Gentle introductions, closer interval comparisons, ninths and tenths.
+• A harmonic interval introduction.
+• Existing stars and best scores are preserved.
+• Improved audio resource cleanup after exercises and replays.
 </en-US>

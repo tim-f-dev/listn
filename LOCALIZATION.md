@@ -14,6 +14,8 @@ Always translate interval labels with `localizedInterval(t, semitones)`. Keep se
 
 ## Updating content
 
+All 100 English/German lesson names and descriptions were replaced for the Blasorchester curriculum on 2026-11-10. Numeric translation keys remain stable, matching permanent progress slots. The preceding bilingual copy is preserved under `archive/curricula/pre-blasorchester-2026-11-10/`. The generated `LEVEL_DESIGN.md` shows both lesson titles and instrument names for review.
+
 After changing authored English level or instrument metadata, run `npm run i18n:sync-en`, then update the matching German entries. Run `npm run validate:i18n` and `npm run check`. Validation checks key parity, nonempty text, interpolation parity, all 100 levels, all 128 programs, literal translation references, plurals and hardcoded JSX/accessibility text. Dynamic keys must resolve through the centrally validated numeric catalogs.
 
 ## Adding a language

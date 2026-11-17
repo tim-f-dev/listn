@@ -1,4 +1,14 @@
-# Packaging readiness — 2026-11-03
+# Packaging readiness
+
+## Current local follow-up — 2026-11-10
+
+The 100-level Blasorchester curriculum, new English/German names, instrument audit and retired-curriculum archive are implemented locally. Existing progress stays on fixed numbered slots with the same save key/gates; upgrade regression tests cover loading, saving and access modes. The Android playback cleanup candidate fix is also local and still needs device confirmation. App version remains 1.1.0; no remote build, upload or deployment occurred in this follow-up.
+
+Regenerate native Android screenshots: existing detail/exercise images and ZIP show the retired curriculum. Review the updated DE/EN release notes before upload. Distinct Tenorhorn, Bariton/Euphonium and Flügelhorn samples remain a documented gap. Verify remote EAS project/signing/version-code state and actual installed-update progress retention before release.
+
+The remaining sections are historical reviews; their old version, lesson and test-count claims are not current source state. Latest validation is recorded in `VALIDATION.md` and `CHAT_CONTEXT.md`.
+
+## Historical packaging readiness — 2026-11-03
 
 Latest follow-up: user requested version 1.1; app.json, package.json and package-lock.json now use **1.1.0**. Lint/typecheck passed. EAS project:info still could not run: the default CLI cache had a missing yallist dependency and a fresh isolated CLI cache failed with npm ECOMPROMISED/Lock compromised. The remote association remains unverified. No build or upload occurred. DE/EN release notes are in assets/store/release-notes-1.1.0.txt.
 

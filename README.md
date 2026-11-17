@@ -8,12 +8,14 @@ Listn is a musical ear-training game that helps you recognize the distance betwe
 ## Made for everyday practice
 
 - **English and German**, with musical interval names in both languages. Change languages in Options.
-- **Varied instrument sounds** to help you recognize intervals across different tones and registers.
+- **Wind-band instrument sounds**, with frequent clarinet, trumpet, flute, trombone, horn and saxophones, plus occasional guest instruments.
 - **Automatic progress saving** on the device and browser you use.
 - **Offline play** once the web app displays “Ready to play offline.”
 - **No account, ads, or time pressure.**
 
 Progress stays on your device rather than syncing between devices. Clearing the app or website's stored data removes it. Offline files may also be removed by your browser.
+
+Earned best scores and stars stay attached to the same numbered level when an update changes its name or exercises.
 
 The shared codebase supports web, Android and iOS. You can play in your browser at [intervalify.app](https://intervalify.app/).
 

@@ -1,4 +1,10 @@
-# Supported introductions and compact comparisons — 2026-11-03
+# Blasorchester replacement — 2026-11-10
+
+All 100 lesson configurations and English/German names were revised in place. Current numeric slot N replaces old slot N: there is no permutation or score migration. Earned scores, stars and gates retain their original numbered slots. Full preceding configurations and translations are preserved under `archive/curricula/pre-blasorchester-2026-11-10/`; current names/settings and all instrument appearances are in `LEVEL_DESIGN.md`.
+
+The tables below are historical mappings from earlier revisions and do not describe the current lesson names or instrument sets.
+
+## Historical: supported introductions and compact comparisons — 2026-11-03
 
 All existing English/German names and instrument sets are preserved. Levels 29/30 and 86/97 were swapped; other numbered positions stay as in the preceding revision. Comparison pools/settings were adjusted to make two-choice lessons rare after level 20 (only 24, 25, 41, 82) and every new instrument/interval introduction slow, narrow in roots and clearly spaced. Scores/stars stay attached to numbered slots.
 

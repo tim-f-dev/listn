@@ -49,6 +49,10 @@ Stars: **5/10 = one**, **8/10 = two**, **10/10 = three**. Thresholds are configu
 
 Progress is stored using AsyncStorage under `listn.progress.v1`. The saved record includes best scores/stars, unlocked levels and chapter totals. Derived unlocks are recomputed on load to avoid stale state. Saves are serialized, storage failures are shown with a Retry action, and invalid saves are not silently overwritten. Clearing app/browser data removes progress. Results are local to each device/browser; there is no cloud sync.
 
+App and curriculum versions do not version or reset this storage key. Level IDs 1–100 are permanent progress slots: replacing a lesson or its translations keeps its existing best result and stars. The 2026-11-10 Blasorchester rework preserves all numbered slots and gates; upgrade/round-trip regression coverage lives in `tests/curriculum-update.test.ts`. The previous curriculum and both translations are archived in `archive/curricula/pre-blasorchester-2026-11-10/`.
+
+The current curriculum uses 17 bundled sounds and targets 95% wind-instrument questions. `LEVEL_DESIGN.md`, regenerated with `npm run docs:levels`, lists every instrument occurrence, expected question share and adjacent-task weak links. Tenorhorn, Bariton/Euphonium and Flügelhorn still need distinct licensed samples; do not relabel GM brass presets to imply they are included. Audio assets and licensing are unchanged by this rework.
+
 ## Structure
 
 ```text

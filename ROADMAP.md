@@ -1,6 +1,18 @@
 # Listn progress and ideas
 
-Updated: 2026-11-03. Planning only; these notes do not authorize implementation or publication. This chat is for tracking progress.
+Updated: 2026-11-10. Current status below supersedes historical planning notes further down. Future ideas do not authorize implementation or publication.
+
+## Current implementation and remaining work
+
+- Configured version is 1.1.0. Branding, navigation, previews, tutorials and English/German support are implemented.
+- All 100 lessons now emphasize a German Blasorchester, with new bilingual names. Wind instruments account for 95% of expected questions; string/electric guests are rare. Four-choice practice starts at 6; harmony still starts at 12.
+- `LEVEL_DESIGN.md` lists instrument frequency, every appearance and weak links. The preceding curriculum and translations are archived under `archive/curricula/pre-blasorchester-2026-11-10/`.
+- Saved scores/stars remain on permanent numbered slots across curriculum/app updates. No save-key or pack-gate change was made.
+- Remaining: distinct licensed Tenorhorn, Bariton/Euphonium and Flügelhorn sounds; learner listening tests; Android long-session/replay/interruptions/offline/update testing; native store screenshots; current EAS association/signing/version-code verification.
+- Known bugs are tracked in `KNOWN_BUGS.md`. Low-note loudness remains deferred; the Android playback cleanup fix awaits device confirmation.
+- The rhythm-listening track remains a future idea. No build, upload or deployment was performed for this rework.
+
+## Historical planning notes — 2026-11-03
 
 ## Current position
 

@@ -67,6 +67,9 @@ export function parseProgress(raw: string | null): Progress {
   return deriveProgress(best, accessMode);
 }
 export interface Storage { getItem(key: string): Promise<string | null>; setItem(key: string, value: string): Promise<void> }
+// Persistence version describes the save schema, never the app/curriculum release.
+// IDs 1–100 are permanent progress slots: renaming/replacing a lesson must keep
+// the slot's earned best result and must not change this key or reset its data.
 export const PROGRESS_KEY = 'listn.progress.v1';
 export class ProgressStore {
   private writes = Promise.resolve();

@@ -1,5 +1,15 @@
 # Curriculum difficulty review
 
+## Current implementation — Blasorchester, 2026-11-10
+
+All 100 names and configurations were revised. The frequency/appearance table and automated weak-link report in `LEVEL_DESIGN.md` supersede the historical reviews below. Wind sounds account for 95% of expected questions. Core instruments recur most; string/electric cameos are rare. No adjacent lessons share an instrument, and every transition changes at least two of instrument pool, interval pool, presentation and timing. Selected interval-pool repeats deliberately transfer a skill across a different timbre and presentation/timing.
+
+The opening has five distinct binary contrasts rather than repeated Prime/octave discrimination; four-choice lessons start at 6. New intervals and instruments retain supported introductions; harmony still begins at 12. Minor second/third arrive at 24/25, tritone at 41, and compounds at 82–85. Only 24, 25, 41 and 82 have two answers after pack 1. Dense review pools and the final compound-coverage policy remain intact.
+
+The instrument audit exposed long gaps for soprano sax and a one-off bassoon introduction; added return lessons now provide spaced practice for both. Tenorhorn, Bariton/Euphonium and Flügelhorn remain missing distinct sounds. Early timbre changes, low brass audibility and perceived progression still need listening tests. This is structural verification, not learner calibration.
+
+Progress slots 1–100, the v1 storage key and pack gates remain stable. The replaced curriculum and both translations are archived. All preceding "names/instrument sets preserved" statements below apply only to those historical passes.
+
 ## Latest implementation: supported introductions and compact answer sets
 
 The remaining issues described in the older reviews below were addressed by explicit user request. All 100 English/German names and each lesson's instrument set are preserved. Only 29/30 and 86/97 changed positions in this pass. See `LEVEL_REORDER.md` and regenerated `LEVEL_DESIGN.md` for current configurations.

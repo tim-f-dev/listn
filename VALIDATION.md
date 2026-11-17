@@ -1,3 +1,15 @@
+# Current validation — 2026-11-10
+
+- `npm run check`: passed after the final Blasorchester curriculum adjustments.
+- App and test/tool typechecks; lint; **66 tests**; **100 levels**; **30,000 seeded questions**; **7,483 exhaustive configured instrument/root/interval combinations**; English/German completeness and visible-string checks.
+- Verified **4,760 note slots in 128 checksummed M4A banks**, 48,290,798 bytes (46.05 MiB). Assets were not rerendered or changed.
+- `npm run docs:levels`: regenerated all 100 bilingual lesson entries, instrument frequency/appearance table, expected question shares and weak-link report. No shared timbre between adjacent lessons; every transition changes at least two task dimensions.
+- Upgrade regression test loads an old v1 save with all 100 result slots, preserves scores/stars and derived gates through replacement, saves/reloads further results and retains all-levels access. This tests storage logic, not an installed Android package update.
+- Native-audio regression tests cover explicit resource release and 100 rapid cancelled loads followed by recovery. The reported Android playback failure still needs device reproduction/confirmation.
+- No native device QA, remote EAS verification, build, upload or deployment was performed. Learner calibration, quiet bass notes and current store screenshots remain follow-ups.
+
+The earlier validation below is historical; its test counts, old level coverage and preview content do not describe the current curriculum.
+
 # Implementation validation — 21 October 2026
 
 ## Executed checks
