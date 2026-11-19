@@ -6,14 +6,23 @@ Listn is a musical ear-training game that helps you recognize the distance betwe
 
 ## Screenshots
 
+### English
+
 <p>
-  <img src="assets/store/screenshots-de/01-startseite.png" alt="Listn home screen" width="180" />
-  <img src="assets/store/screenshots-de/02-levelpakete.png" alt="Level pack selection" width="180" />
-  <img src="assets/store/screenshots-de/03-leveldetails.png" alt="Level details" width="180" />
-  <img src="assets/store/screenshots-de/04-hoeruebung.png" alt="Listening exercise" width="180" />
+  <img src="assets/readme/01-home.png" alt="Listn home screen in English" width="180" />
+  <img src="assets/readme/02-level-packs.png" alt="Level pack selection in English" width="180" />
+  <img src="assets/readme/03-level-details.png" alt="Level details in English" width="180" />
+  <img src="assets/readme/04-listening-exercise.png" alt="Listening exercise in English" width="180" />
 </p>
 
-These German store screenshots show an earlier version of Listn.
+### Deutsch
+
+<p>
+  <img src="assets/readme/01-startseite.png" alt="Listn home screen" width="180" />
+  <img src="assets/readme/02-levelpakete.png" alt="Level pack selection" width="180" />
+  <img src="assets/readme/03-leveldetails.png" alt="Level details" width="180" />
+  <img src="assets/readme/04-hoeruebung.png" alt="Listening exercise" width="180" />
+</p>
 
 ## Made for everyday practice
 
