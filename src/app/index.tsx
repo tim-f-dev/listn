@@ -12,7 +12,10 @@ export default function HomeScreen() {
   const { progress } = useGame();
   const { dense, landscape } = useScreenLayout();
   return <Page compact>
-    <View style={[ui.row, { justifyContent: 'flex-end', flexShrink: 0 }]}>
+    <View style={[ui.row, { flexWrap: 'nowrap', flexShrink: 0 }]}>
+      <View style={{ flex: 1, minWidth: 0 }}>
+        <OfflineStatus />
+      </View>
       <Text style={ui.small}>{t('home.totalStars', { count: totalStars(progress.best) })}</Text>
     </View>
     <View style={{ flex: 1, minHeight: 0, flexDirection: landscape ? 'row' : 'column', alignItems: 'center', justifyContent: 'center', gap: dense ? 12 : 24 }}>
@@ -28,7 +31,6 @@ export default function HomeScreen() {
         <View style={{ alignSelf: 'center', minWidth: 160 }}><Button leadingIcon="options" secondary onPress={() => router.push('/options')}>{t('options.title')}</Button></View>
       </View>
     </View>
-    <OfflineStatus />
     <View style={[ui.row, { justifyContent: 'center', flexShrink: 0 }]}>
       <Link href="/privacy" style={[ui.small, { padding: 10 }]}>{t('privacy.title')}</Link>
       <Link href="/legal" style={[ui.small, { padding: 10 }]}>{t('legal.title')}</Link>
