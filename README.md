@@ -4,6 +4,16 @@ Listn is a musical ear-training game that helps you recognize the distance betwe
 
 [Play Listn](https://intervalify.app/)
 
+## Screenshots
+
+<p>
+  <img src="assets/store/screenshots-de/01-startseite.png" alt="Listn home screen" width="180" />
+  <img src="assets/store/screenshots-de/02-levelpakete.png" alt="Level pack selection" width="180" />
+  <img src="assets/store/screenshots-de/03-leveldetails.png" alt="Level details" width="180" />
+  <img src="assets/store/screenshots-de/04-hoeruebung.png" alt="Listening exercise" width="180" />
+</p>
+
+These German store screenshots show an earlier version of Listn.
 
 ## Made for everyday practice
 
